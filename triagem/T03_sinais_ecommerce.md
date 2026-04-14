@@ -6,6 +6,11 @@ intencao: t03_sinais_ecommerce
 
 **Quem é:** cliente pesquisando ou prestes a comprar no site.
 
+### NÃO classificar como ECOMMERCE quando mencionar:
+- "personalizado", "personalizar", "uniforme", "logo", "bordado"
+- "mínimo de peças", "orçamento para personalizar"
+- Qualquer intenção de customização — esses são RECEPTIVO ou ATIVO
+
 ### Classificar como ECOMMERCE quando mencionar:
 - "qual a diferença entre", "qual camisa é melhor para"
 - "qual tamanho", "tenho X cm de tórax"
