@@ -32,4 +32,3 @@ Classificação: RECEPTIVO (com flag VIP).
 
 **Caso 5 — Ambiguidade entre ATIVO e RECEPTIVO**
 Regra de desempate: na dúvida, classificar como RECEPTIVO.
- 
