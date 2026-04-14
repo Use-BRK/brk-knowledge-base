@@ -12,6 +12,8 @@ intencao: t02_sinais_sac
 - "quero trocar", "quero devolver", "quero cancelar", "quero reembolso"
 - "fui cobrado errado", "cobrou duas vezes"
 - "não recebi o rastreio", "código de rastreio não funciona"
+- "nota fiscal", "NF", "CNPJ", "razão social", "carimbo", "documento"
+- "segunda via", "comprovante", "boleto", "dados da empresa"
 
 ### Perfil emocional típico
 Ansioso (rastreio/prazo), irritado (defeito), apressado (cancelamento urgente).
@@ -20,6 +22,6 @@ Ansioso (rastreio/prazo), irritado (defeito), apressado (cancelamento urgente).
 - Produto com defeito + cliente irritado
 - Cobrança duplicada
 - Cliente menciona Reclame Aqui
+- Pedido de documentos fiscais ou dados cadastrais da BRK
 
 ### Classificação: SAC
-

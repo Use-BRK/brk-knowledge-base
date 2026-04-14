@@ -11,6 +11,18 @@ intencao: t01_fluxo_decisao
 ### Princípio central
 Ouvir antes de perguntar. Se a intenção já está clara na primeira mensagem, classificar direto. Só perguntar quando faltar uma informação crítica para a decisão.
 
+### Passo 0 — Verificar se é escopo BRK
+Antes de qualquer classificação, verificar se o assunto é relacionado à BRK.
+
+**Classificar como SAC imediatamente quando mencionar:**
+- Documentos fiscais: nota fiscal, NF, CNPJ, razão social, carimbo, dados da empresa
+- Segunda via de boleto, comprovante ou cadastro
+- Qualquer assunto administrativo ou fiscal
+
+**Se o assunto não tiver nenhuma relação com a BRK** (vestuário, personalização, compras, pedidos):
+- Responder educadamente que não pode ajudar com esse assunto
+- Não classificar em nenhum setor
+
 ### Árvore de decisão
 
 **Passo 1 — Leia a mensagem.**
@@ -40,5 +52,3 @@ Sempre encerrar com exatamente uma dessas tags:
 [SETOR: RECEPTIVO]
 [SETOR: ECOMMERCE]
 Seguido de uma frase humana de transição.
-
-
