@@ -14,11 +14,31 @@ intencao: re02_processo_personalizacao
 7. Entrega com rastreio
 
 ### Mínimo de peças
-10 peças por pedido.
+10 peças por pedido — válido para QUALQUER tipo de peça.
 
+### Fluxo de coleta de briefing (ordem obrigatória)
+1. Perguntar quantidade
+2. Se < 10 → avisar mínimo → oferecer alternativas se cliente insistir
+3. Quando quantidade ≥ 10 confirmada → perguntar tipo de peça
+4. Quando tipo confirmado → perguntar situação da arte
+5. Com os 3 dados → transferir imediatamente
+
+### Regra de quantidade mínima
 Se o cliente informar menos de 10 peças:
 "O mínimo para personalização é 10 peças. Você consegue chegar a 10 ou prefere explorar outras opções?"
-Não continuar o briefing enquanto a quantidade mínima não for confirmada.
+
+Alternativas disponíveis se cliente não conseguir 10:
+- Aumentar para 10 do mesmo modelo
+- Trocar para outro tipo: camiseta algodão, polo, boné, Camisa Work UV50+
+
+### Regra especial — cliente escolhe alternativa após aviso de mínimo
+Quando o cliente confirma um tipo de peça após ser informado do mínimo,
+assumir quantidade = 10 automaticamente. NÃO perguntar quantidade de novo.
+Ir direto para a pergunta sobre arte.
+
+Exemplo correto:
+Cliente: "Algodão"
+Beka: "Ótimo — 10 camisetas de algodão. Você já tem a arte/logo pronta ou precisa que a gente crie?"
 
 ### Peças disponíveis
 
@@ -32,15 +52,3 @@ Não continuar o briefing enquanto a quantidade mínima não for confirmada.
 
 ### Formas de pagamento para personalização
 ✅ Pix | ✅ Cartão | ✅ Transferência | ✅ Boleto
-
-### Scripts
-
-**Cliente pergunta o mínimo:**
-"O mínimo para personalizar é 10 peças. Você já tem ideia de quantas precisaria?"
-
-**Cliente não tem arte:**
-"Sem problema! Nossa equipe cria o layout junto com você. Quer que eu te encaminhe?"
-
-**Cliente quer saber quanto custa:**
-"O valor depende do modelo e quantidade. Vou te encaminhar para o time dar um orçamento exato."
-
