@@ -34,3 +34,4 @@ intencao: ec01_guia_tamanhos  # identificador único do chunk
 
 No repositório GitHub, configure o secret:
 - `N8N_WEBHOOK_URL` → URL do webhook do fluxo de sincronização no n8n
+
