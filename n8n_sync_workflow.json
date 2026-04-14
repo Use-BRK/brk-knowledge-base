@@ -1,0 +1,64 @@
+{
+  "name": "BRK — Sync Knowledge Base (GitHub → PGVector)",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "brk-kb-sync",
+        "responseMode": "onReceived",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [-400, 0],
+      "name": "Webhook GitHub Actions",
+      "webhookId": "brk-kb-sync"
+    },
+    {
+      "parameters": {
+        "jsCode": "const body = $input.first().json;\n\nconst agente = body.agente?.trim();\nconst intencao = body.intencao?.trim();\nconst content = body.content?.trim();\nconst file = body.file?.trim();\n\nif (!agente || !intencao || !content) {\n  throw new Error(`Campos obrigatórios ausentes: agente=${agente}, intencao=${intencao}`);\n}\n\nreturn [{\n  json: { agente, intencao, content, file }\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [-200, 0],
+      "name": "Valida e extrai campos"
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "DELETE FROM n8n_vectors WHERE metadata->>'intencao' = '{{ $json.intencao }}' AND metadata->>'agente' = '{{ $json.agente }}'",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.5,
+      "position": [0, 0],
+      "name": "Delete chunk antigo",
+      "credentials": {
+        "postgres": {
+          "name": "Postgres PGVector"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const item = $input.first().json;\n\nreturn [{\n  json: { text: item.content },\n  binary: {\n    data: {\n      data: Buffer.from(item.content, 'utf-8').toString('base64'),\n      mimeType: 'text/plain',\n      fileName: item.file || 'chunk.md'\n    }\n  }\n}];"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [200, 0],
+      "name": "Prepara binário para ingestão"
+    }
+  ],
+  "connections": {
+    "Webhook GitHub Actions": {
+      "main": [[{ "node": "Valida e extrai campos", "type": "main", "index": 0 }]]
+    },
+    "Valida e extrai campos": {
+      "main": [[{ "node": "Delete chunk antigo", "type": "main", "index": 0 }]]
+    },
+    "Delete chunk antigo": {
+      "main": [[{ "node": "Prepara binário para ingestão", "type": "main", "index": 0 }]]
+    }
+  },
+  "settings": { "executionOrder": "v1" }
+}
