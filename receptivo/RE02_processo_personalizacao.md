@@ -52,3 +52,4 @@ Beka: "Ótimo — 10 camisetas de algodão. Você já tem a arte/logo pronta ou 
 
 ### Formas de pagamento para personalização
 ✅ Pix | ✅ Cartão | ✅ Transferência | ✅ Boleto
+

@@ -36,3 +36,4 @@ Curioso, inseguro com o processo, quer clareza antes de se comprometer.
 ### Classificação: RECEPTIVO
  
 
+

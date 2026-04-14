@@ -62,3 +62,4 @@ Corte ajustado. Quem prefere folgado: pedir um tamanho acima.
 "Se não sabe o tórax, use a altura como referência para estimar o tamanho mais próximo."
  
 
+

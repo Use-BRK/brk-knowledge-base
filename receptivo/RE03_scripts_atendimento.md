@@ -68,3 +68,4 @@ Ao transferir, encerrar com APENAS esta mensagem — sem repetir o briefing:
 - Repetir a mesma pergunta
 - Exibir lista de itens coletados antes de encerrar
 - Gerar duas respostas na mesma mensagem
+

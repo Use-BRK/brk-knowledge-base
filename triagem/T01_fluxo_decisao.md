@@ -41,3 +41,4 @@ Sempre encerrar com exatamente uma dessas tags:
 [SETOR: ECOMMERCE]
 Seguido de uma frase humana de transição.
 
+

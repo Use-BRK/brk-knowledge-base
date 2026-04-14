@@ -37,3 +37,4 @@ Beka: "Sim, emitimos nota fiscal para CNPJ. Vou passar para nosso time comercial
 "Estou passando seu atendimento para nossa equipe comercial com todo o contexto. Em breve entram em contato! 👍"
  
 
+

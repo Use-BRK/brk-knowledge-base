@@ -31,3 +31,4 @@ Curioso (primeira compra), indeciso (compara modelos), presenteando.
 
 ### Classificação: ECOMMERCE
 
+
