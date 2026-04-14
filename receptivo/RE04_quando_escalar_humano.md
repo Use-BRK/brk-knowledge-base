@@ -29,4 +29,3 @@ Menciona experiência ruim anterior. Tom mais cuidadoso.
 - Prazo necessário
 - Divisão (Fishing / Agro / Motors)
 - Tom emocional (animado, formal, desconfiado)
- 

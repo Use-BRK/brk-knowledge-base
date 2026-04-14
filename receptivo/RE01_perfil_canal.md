@@ -33,4 +33,3 @@ Acolhedor, paciente, consultivo. Guiar sem pressionar.
 
 ### Sempre transferir para humano
 O canal Receptivo tem atendimento consultivo humano para fechar o pedido.
- 

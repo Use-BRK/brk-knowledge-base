@@ -16,6 +16,10 @@ intencao: re02_processo_personalizacao
 ### Mínimo de peças
 10 peças por pedido.
 
+Se o cliente informar menos de 10 peças:
+"O mínimo para personalização é 10 peças. Você consegue chegar a 10 ou prefere explorar outras opções?"
+Não continuar o briefing enquanto a quantidade mínima não for confirmada.
+
 ### Peças disponíveis
 
 | Peça | Personalização |
@@ -39,4 +43,3 @@ intencao: re02_processo_personalizacao
 
 **Cliente quer saber quanto custa:**
 "O valor depende do modelo e quantidade. Vou te encaminhar para o time dar um orçamento exato."
- 
