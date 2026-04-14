@@ -23,41 +23,20 @@ jobs:
       - name: Identify changed files
         id: changed
         run: |
-          CHANGED=$(git diff --name-only HEAD~1 HEAD | grep '\.md$' || true)
+          CHANGED=$(git diff --name-only HEAD~1 HEAD | grep '\.md$' | grep -v 'README.md' || true)
           echo "files<<EOF" >> $GITHUB_OUTPUT
           echo "$CHANGED" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
-          echo "Changed files: $CHANGED"
+          echo "Changed markdown files: $CHANGED"
 
       - name: Sync each changed file to n8n
         env:
           N8N_WEBHOOK_URL: ${{ secrets.N8N_WEBHOOK_URL }}
         run: |
           echo "${{ steps.changed.outputs.files }}" | while IFS= read -r file; do
-            if [ -z "$file" ]; then continue; fi
+            if [ -z "$file" ]; then
+              continue
+            fi
             echo "Syncing: $file"
-            
-            # Read file content
-            CONTENT=$(cat "$file")
-            
-            # Extract frontmatter fields
-            AGENTE=$(echo "$CONTENT" | grep '^agente:' | head -1 | sed 's/agente: //')
-            INTENCAO=$(echo "$CONTENT" | grep '^intencao:' | head -1 | sed 's/intencao: //')
-            
-            # Remove frontmatter from content
-            CLEAN_CONTENT=$(echo "$CONTENT" | sed '/^---$/,/^---$/d')
-            
-            echo "Agente: $AGENTE | Intencao: $INTENCAO"
-            
-            # Call n8n webhook
-            curl -s -X POST "$N8N_WEBHOOK_URL" \
-              -H "Content-Type: application/json" \
-              -d "{
-                \"file\": \"$file\",
-                \"agente\": \"$AGENTE\",
-                \"intencao\": \"$INTENCAO\",
-                \"content\": $(echo "$CLEAN_CONTENT" | python3 -c 'import json,sys; print(json.dumps(sys.stdin.read()))')
-              }"
-            
-            echo "Synced: $file"
+            python3 scripts/sync_chunk.py "$file"
           done
