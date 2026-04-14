@@ -40,3 +40,4 @@ Encaminhar para equipe de personalização + SAC juntos.
 - O que o cliente deseja
 - Tom emocional (ansioso / irritado / urgente)
 - Flag de criticidade se aplicável
+ 

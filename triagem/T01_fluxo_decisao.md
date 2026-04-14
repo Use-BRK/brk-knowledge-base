@@ -34,3 +34,4 @@ Sempre encerrar com:
 [SETOR: RECEPTIVO]
 [SETOR: ECOMMERCE]
 Seguido de uma frase humana de transição.
+ 

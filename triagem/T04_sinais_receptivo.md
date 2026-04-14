@@ -24,3 +24,4 @@ Curioso, inseguro com o processo, quer clareza antes de se comprometer.
 - Empresa que exige contrato formal
 
 ### Classificação: RECEPTIVO
+ 

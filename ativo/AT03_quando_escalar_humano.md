@@ -28,3 +28,4 @@ Ação: Encaminhar para equipe B2B.
 - Referência ao pedido anterior
 - Prazo necessário
 - Flag de urgência se aplicável
+ 

@@ -22,3 +22,4 @@ Ansioso (rastreio/prazo), irritado (defeito), apressado (cancelamento urgente).
 - Cliente menciona Reclame Aqui
 
 ### Classificação: SAC
+ 

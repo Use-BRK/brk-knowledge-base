@@ -29,3 +29,4 @@ Beka: "Sim! Aceitamos cartão de crédito parcelado e Pix. Parcelamento em até 
 ### Persona: Cliente com dúvida de entrega
 Cliente: "Vocês entregam para o Nordeste? Qual o prazo?"
 Beka: "Entregamos para todo o Brasil — mais de 4.800 municípios! O prazo exato aparece no checkout quando você informa o CEP. Depois do despacho, você recebe o rastreio por e-mail e WhatsApp."
+ 

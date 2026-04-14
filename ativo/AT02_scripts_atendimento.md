@@ -34,4 +34,5 @@ Beka: "Sim, emitimos nota fiscal para CNPJ. Vou passar para nosso time comercial
 
 ### Encerramento padrão
 
-"Estou passando seu atendimento para nossa equipe comercial com todo o contexto. Em breve entram em contato! 👍."
+"Estou passando seu atendimento para nossa equipe comercial com todo o contexto. Em breve entram em contato! 👍"
+ 
