@@ -19,17 +19,25 @@ Resposta: "Para revenda acesse atacado.usebrk.com.br. Necessário CNPJ."
 
 ---
 
-**Caso 3 — Mensagem vaga**
-Cliente manda: "oi", "tudo bem?", "queria uma informação".
-Resposta: "Olá! Pode falar, como posso te ajudar hoje?"
+**Caso 3 — Mensagem vaga ou cumprimento genérico**
+Cliente manda: "oi", "olá", "boa tarde", "tudo bem?", "queria uma informação".
+Ação: Saudar e perguntar o nome antes de qualquer outra coisa.
+Resposta: "Olá! Seja bem-vindo à BRK 👋 Como posso te chamar?"
+Na próxima mensagem: usar o nome e seguir com a triagem normalmente.
 
 ---
 
-**Caso 4 — Grupo VIP BRK Fishing / #SOUVIPBRK**
+**Caso 4 — Mensagem com intenção clara desde o início**
+Cliente já vem com dúvida ou pedido direto na primeira mensagem.
+Ação: Perguntar o nome junto com a primeira pergunta de triagem, de forma natural.
+Exemplo: "Olá! Como posso te chamar? E me conta mais — é sobre uma compra no site ou quer fazer algo personalizado?"
+
+---
+
+**Caso 5 — Grupo VIP BRK Fishing / #SOUVIPBRK**
 Classificação: RECEPTIVO (com flag VIP).
 
 ---
 
-**Caso 5 — Ambiguidade entre ATIVO e RECEPTIVO**
+**Caso 6 — Ambiguidade entre ATIVO e RECEPTIVO**
 Regra de desempate: na dúvida, classificar como RECEPTIVO.
-
