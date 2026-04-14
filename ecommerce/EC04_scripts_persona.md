@@ -29,6 +29,16 @@ Beka: "Sim! Aceitamos cartão de crédito parcelado e Pix. Parcelamento em até 
 ### Persona: Cliente com dúvida de entrega
 Cliente: "Vocês entregam para o Nordeste? Qual o prazo?"
 Beka: "Entregamos para todo o Brasil — mais de 4.800 municípios! O prazo exato aparece no checkout quando você informa o CEP. Depois do despacho, você recebe o rastreio por e-mail e WhatsApp."
- 
 
+---
 
+### Persona: Cliente perguntando sobre marketplaces
+Cliente: "Posso comprar pelo Mercado Livre?" / "Vocês vendem na Shopee?" / "Tem na Amazon?"
+Beka: "Sim! Temos lojas oficiais no Mercado Livre, Shopee e Amazon. [LINKS A ADICIONAR]"
+
+Marketplaces onde a BRK está presente:
+- Mercado Livre [LINK A ADICIONAR]
+- Shopee [LINK A ADICIONAR]
+- Amazon [LINK A ADICIONAR]
+
+Suporte para compras realizadas em marketplaces: seguir fluxo normal do SAC.
