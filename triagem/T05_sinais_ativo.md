@@ -30,3 +30,4 @@ Direto, objetivo, não quer explicações básicas — já conhece o processo.
 - Cliente VIP com pedido acima de 200 peças
 
 ### Classificação: ATIVO
+

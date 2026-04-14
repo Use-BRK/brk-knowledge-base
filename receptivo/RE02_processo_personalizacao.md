@@ -43,3 +43,4 @@ Não continuar o briefing enquanto a quantidade mínima não for confirmada.
 
 **Cliente quer saber quanto custa:**
 "O valor depende do modelo e quantidade. Vou te encaminhar para o time dar um orçamento exato."
+

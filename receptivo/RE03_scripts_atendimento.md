@@ -44,3 +44,4 @@ Quando os 3 estiverem confirmados, encerrar IMEDIATAMENTE com:
 - NÃO continuar fazendo perguntas após ter os 3 dados obrigatórios
 - NÃO dar orçamento ou prazo — isso é com o time humano
 - NÃO coletar grade de tamanhos — isso é com o time humano
+

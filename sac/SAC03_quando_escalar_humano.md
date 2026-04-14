@@ -41,3 +41,4 @@ Encaminhar para equipe de personalização + SAC juntos.
 - Tom emocional (ansioso / irritado / urgente)
 - Flag de criticidade se aplicável
  
+

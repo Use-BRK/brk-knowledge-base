@@ -40,3 +40,4 @@ Sempre encerrar com exatamente uma dessas tags:
 [SETOR: RECEPTIVO]
 [SETOR: ECOMMERCE]
 Seguido de uma frase humana de transição.
+

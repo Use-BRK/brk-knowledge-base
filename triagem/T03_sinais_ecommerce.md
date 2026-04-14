@@ -30,3 +30,4 @@ Curioso (primeira compra), indeciso (compara modelos), presenteando.
 - Cobrança realizada mas pedido não gerado
 
 ### Classificação: ECOMMERCE
+
