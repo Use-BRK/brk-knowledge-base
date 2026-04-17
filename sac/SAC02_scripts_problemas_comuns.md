@@ -6,6 +6,18 @@ intencao: sac02_scripts_problemas_comuns
 
 ---
 
+### Prazos de processamento — Pedidos do site
+
+Para pedidos dos sites BRK (Fishing, Agro, Motors):
+- **Prazo de produção/processamento:** até 9 dias úteis após pagamento aprovado
+- **Prazo de entrega:** depende da transportadora e localidade do cliente
+- **Prazo total:** 9 dias úteis (produção) + prazo da transportadora
+
+Use esses prazos quando o cliente perguntar "quando chega" ou "tem previsão"
+e o pedido estiver em "Aguardando envio".
+
+---
+
 ### Script 1 — Rastreio não recebido
 Cliente: "Fiz um pedido há 10 dias e não recebi nenhum e-mail de rastreio."
 Beka: "Entendo a preocupação! Me passa o número do pedido que vejo o status agora."
@@ -36,56 +48,43 @@ Beka: "Vou passar para nosso time financeiro agora. Me passa o número do pedido
 
 Quando o cliente pedir status do pedido ou código de rastreio:
 
-**Passo 1 — Busca proativa por nome:**
-Se já tiver o nome do cliente → usar as tools de busca por nome nas 3 lojas.
-Se não tiver → solicitar o número do pedido.
+**Passo 1 — Solicitar o número do pedido:**
+Beka: "Me passa o número do seu pedido que vejo o status agora! Você encontra no e-mail de confirmação (ex: #34491)."
 
-**Passo 2 — Confirmação parcial OBRIGATÓRIA antes de revelar dados:**
-Ao encontrar um pedido pelo nome, NUNCA revelar rastreio ou detalhes completos imediatamente.
-Sempre confirmar primeiro com informações parciais:
+**Passo 2 — Buscar nas tools Shopify (Fishing, Agro, Motors) e processar:**
+Após cada busca, processar com a tool "Processa Pedido Shopify".
 
-Beka: "Encontrei um pedido associado ao nome {nome}. Para confirmar que é o seu, pode me dizer a data aproximada da compra ou o valor total?"
-
-Informações que PODEM ser exibidas na confirmação parcial:
-- Nome do cliente (já informado por ele)
-- Data do pedido
-- Valor total
-- Apenas 1 item do pedido (o primeiro)
-
-Informações que NÃO devem ser exibidas antes da confirmação:
-- Código de rastreio
-- Link de rastreio
-- Endereço de entrega
-- Dados de pagamento
-- Lista completa de itens
-
-Exemplo correto de confirmação parcial:
-Beka: "Encontrei um pedido aqui 😊 Só para confirmar que é o seu:
-• Data: 10/03/2026
-• Valor: R$ 359,99
-• Item: Lenço Feminino BRK AGRO Country Marrom
-É esse pedido?"
-
-**Passo 3 — Após confirmação do cliente:**
-Beka: "Oi {nome}! Aqui estão os detalhes do seu pedido #{numero} na {loja} 😊
-Status: {fulfillmentStatus}
+**Passo 3 — Se encontrou o pedido com código de rastreio:**
+Beka: "Encontrei! 📦
+Pedido: #{numero}
+Data: {data}
+Item: {primeiroItem}
+Status: Enviado
 Transportadora: {transportadora}
 Rastreio: {codigo}
-Link: {link}"
+Link: {link}
 
-**Passo 4 — Se NÃO tiver código de rastreio após confirmação:**
+Alguma outra dúvida?"
+
+**Passo 4 — Se NÃO tiver código de rastreio:**
+
 - Status "Aguardando envio":
-  Beka: "Seu pedido #{numero} foi recebido e está sendo preparado. Assim que for despachado você receberá o código de rastreio por e-mail e WhatsApp!"
+  Beka: "Seu pedido #{numero} foi feito em {data} e está em fase de produção 🛠️
+  Nosso prazo é de até 9 dias úteis após o pagamento aprovado para despachar.
+  Assim que sair, você recebe o código de rastreio por e-mail e WhatsApp!"
+
 - Status "Atendido":
   Beka: "Seu pedido #{numero} já foi finalizado. Se ainda não recebeu, me passa mais detalhes que verifico com nossa equipe."
+
 - Status "Cancelado":
   Beka: "Seu pedido #{numero} consta como cancelado. Vou transferir para nossa equipe verificar o que aconteceu."
 
-**Passo 5 — Pedido não encontrado:**
-Beka: "Não encontrei nenhum pedido com esse nome. Pode me passar o número do pedido? Ele geralmente está no e-mail de confirmação de compra."
+**Passo 5 — Pedido não encontrado em nenhuma loja:**
+Beka: "Não encontrei nenhum pedido com esse número. Pode confirmar? O número geralmente está no e-mail de confirmação de compra."
 
-**Passo 6 — Cliente nega ser o pedido:**
-Beka: "Sem problema! Pode me passar o número do pedido para eu localizar o correto?"
+**Passo 6 — Cliente pergunta "quando chega" / "tem previsão":**
+Se o pedido tem rastreio: "Já está a caminho! O prazo de entrega depende da transportadora e da sua localidade. Você pode acompanhar pelo link do rastreio."
+Se o pedido NÃO tem rastreio (Aguardando envio): "Seu pedido foi feito em {data} e está em produção. O prazo é de até 9 dias úteis após o pagamento aprovado para despachar. Depois disso, soma o prazo da transportadora até a sua cidade."
 
 ---
 
