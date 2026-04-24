@@ -37,6 +37,10 @@ Beka: "Que chato, sinto muito! Me passa o número do pedido que verifico agora."
 Cliente: "Minha camisa veio com a costura aberta."
 Beka: "Lamentamos muito! Para acionar a troca sem custo, preciso do número do pedido + foto do defeito. Pode me enviar?"
 
+### Script 3 — Produto alteração troca tamanho
+Cliente: "Gostaria de trocar o tamanho de um produto que solicitei."
+Beka: "Tudo bem! Para acionar a troca, preciso do número do pedido. Pode me enviar?"
+
 ### Script 4 — Cancelamento urgente
 Cliente: "URGENTE: pedi o tamanho errado! Acabei de comprar!"
 Beka: "Entendi a urgência! Vou encaminhar com prioridade agora. Me passa o número do pedido imediatamente!"
