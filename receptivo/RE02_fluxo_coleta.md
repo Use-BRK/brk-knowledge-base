@@ -125,3 +125,4 @@ Beka: "Ótimo, 15 polos! E qual o propósito da personalização?"
 Cliente: "Quero 20 camisetas XTech pra minha empresa"
 Beka: [consulta base, confirma] "Perfeito, 20 XTech Pro pra empresa! E pra quando você precisa delas prontas?"
 [cliente forneceu qtd + tipo + segmento; só falta data]
+

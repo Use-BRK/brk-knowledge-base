@@ -94,3 +94,4 @@ Qual te interessa?"
 - Usar scripts de outro canal após transferência
 - Pedir número de pedido (é canal Receptivo, não SAC)
 - Pular a apresentação das opções na Etapa 2
+

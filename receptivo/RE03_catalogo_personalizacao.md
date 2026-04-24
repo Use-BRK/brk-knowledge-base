@@ -31,3 +31,4 @@ Beka: "Infelizmente não personalizamos calças no momento. Temos disponível: c
 
 ### Formas de pagamento
 Pix, Cartão, Transferência, Boleto.
+

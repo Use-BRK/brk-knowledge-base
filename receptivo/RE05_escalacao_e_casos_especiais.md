@@ -73,3 +73,4 @@ Menciona experiência ruim anterior. Tom mais cuidadoso, sem pressa.
 - Data de entrega
 - Divisão aparente (Fishing / Agro / Motors) — inferir pela conversa
 - Tom emocional do cliente (animado, formal, desconfiado)
+
