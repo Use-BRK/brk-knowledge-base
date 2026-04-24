@@ -23,20 +23,49 @@ jobs:
       - name: Identify changed files
         id: changed
         run: |
-          CHANGED=$(git diff --name-only HEAD~1 HEAD | grep '\.md$' | grep -v 'README.md' || true)
-          echo "files<<EOF" >> $GITHUB_OUTPUT
-          echo "$CHANGED" >> $GITHUB_OUTPUT
+          # Arquivos adicionados ou modificados (existem no disco)
+          ADDED_MODIFIED=$(git diff --name-only --diff-filter=AM HEAD~1 HEAD | grep '\.md$' | grep -v 'README.md' || true)
+          
+          # Arquivos deletados (não existem mais no disco)
+          DELETED=$(git diff --name-only --diff-filter=D HEAD~1 HEAD | grep '\.md$' | grep -v 'README.md' || true)
+          
+          echo "added_modified<<EOF" >> $GITHUB_OUTPUT
+          echo "$ADDED_MODIFIED" >> $GITHUB_OUTPUT
           echo "EOF" >> $GITHUB_OUTPUT
-          echo "Changed markdown files: $CHANGED"
+          
+          echo "deleted<<EOF" >> $GITHUB_OUTPUT
+          echo "$DELETED" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+          
+          echo "=== Added/Modified files ==="
+          echo "$ADDED_MODIFIED"
+          echo "=== Deleted files ==="
+          echo "$DELETED"
 
-      - name: Sync each changed file to n8n
+      - name: Sync added/modified files to n8n
         env:
           N8N_WEBHOOK_URL: ${{ secrets.N8N_WEBHOOK_URL }}
         run: |
-          echo "${{ steps.changed.outputs.files }}" | while IFS= read -r file; do
+          echo "${{ steps.changed.outputs.added_modified }}" | while IFS= read -r file; do
             if [ -z "$file" ]; then
+              continue
+            fi
+            if [ ! -f "$file" ]; then
+              echo "Skipping non-existent file: $file"
               continue
             fi
             echo "Syncing: $file"
             python3 scripts/sync_chunk.py "$file"
+          done
+
+      - name: Delete removed files from n8n
+        env:
+          N8N_DELETE_WEBHOOK_URL: ${{ secrets.N8N_DELETE_WEBHOOK_URL }}
+        run: |
+          echo "${{ steps.changed.outputs.deleted }}" | while IFS= read -r file; do
+            if [ -z "$file" ]; then
+              continue
+            fi
+            echo "Deleting: $file"
+            python3 scripts/delete_chunk.py "$file"
           done
