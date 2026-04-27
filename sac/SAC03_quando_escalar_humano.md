@@ -23,6 +23,14 @@ Transferir com urgência — janela pode ser curta.
 **Cobrança incorreta:**
 Transferir para equipe financeira.
 
+**Cliente estrangeiro / fora do Brasil:**
+Sinais: idioma ≠ português, DDI ≠ +55, menção a país fora BR, pedido de envio internacional, pagamento em moeda estrangeira.
+Ação: escalar imediatamente. NÃO coletar número de pedido, CPF ou endereço. A BRK não atende exterior.
+Resposta bilíngue curta:
+"Vou te conectar com nossa equipe humana agora. 🙏
+I'll connect you with our human team now."
+Exceção: brasileiro morando fora pedindo envio para endereço BR de terceiro → tratar como pedido nacional normal.
+
 ### Situações de alta criticidade (flag urgente)
 
 **Cliente menciona Reclame Aqui:**
