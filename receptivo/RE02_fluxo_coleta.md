@@ -2,13 +2,15 @@
 agente: receptivo
 intencao: re02_fluxo_coleta
 ---
-## Fluxo de coleta de briefing — 4 etapas
+## Fluxo de coleta de briefing — 6 etapas
 
 ### Ordem obrigatória
 1. Tipo de peça
 2. Quantidade
 3. Segmento (propósito)
 4. Data de entrega
+5. E-mail
+6. Onde nos conheceu
 
 Uma pergunta por mensagem. Nunca pule, nunca volte, nunca repita.
 
@@ -89,7 +91,49 @@ Após confirmar segmento, vá para Etapa 4.
 Pergunte a data de entrega desejada:
 "Pra quando você precisa das peças prontas?"
 
-Após receber a data, vá para transferência ao comercial (ver RE05).
+Após receber a data, vá para Etapa 5.
+
+---
+
+### Etapa 5 — E-mail
+
+Pergunte o e-mail do cliente:
+"Pra fechar o briefing, qual seu melhor e-mail? Nossa equipe comercial vai te retornar por lá."
+
+**Validação:** o valor precisa conter `@` e `.` (regex simples).
+→ Se inválido (ex: "meuemail", "joao@"): peça de novo.
+  Script: "Acho que faltou alguma parte aí 🙂 Pode me confirmar o e-mail completo?"
+
+**Se cliente recusar/ignorar/quiser pular:**
+→ Insistir 1x, sem ser invasiva:
+  Script: "Sem o e-mail nosso comercial não consegue te enviar o orçamento. Pode me passar?"
+
+**Se recusar 2x:**
+→ Transferir mesmo assim, com flag `[SEM_EMAIL]` no FINAL da resposta. Caso raro — mas evita loop.
+  Script: "Sem problema! Vou te encaminhar pro comercial mesmo assim, eles tentam contato por aqui. [SEM_EMAIL]"
+
+Após e-mail confirmado, vá para Etapa 6.
+
+---
+
+### Etapa 6 — Onde nos conheceu
+
+Apresente lista fixa numerada:
+"Última coisa: onde você nos conheceu?
+1️⃣ Instagram
+2️⃣ Google
+3️⃣ Indicação
+4️⃣ Marketplace (Mercado Livre, Shopee, Amazon)
+5️⃣ Outro"
+
+**Aceita:** número (1-5) ou texto correspondente ("instagram", "google", "indicação", "marketplace", "outro").
+
+**Se cliente escolher "5️⃣ Outro" (ou "outro"):**
+→ Pedir 1 linha livre.
+  Script: "Pode me contar onde?"
+→ Aceitar qualquer texto curto como resposta.
+
+Após receber a origem, vá para transferência ao comercial (ver RE05).
 
 ---
 
@@ -112,17 +156,43 @@ Cliente: "Camiseta algodão"
 Beka: "Perfeito, camiseta algodão! Quantas peças você precisa? Nosso mínimo é 10."
 Cliente: "20"
 Beka: "Ótimo, 20 peças! E qual o propósito da personalização?"
-[... continua etapas 3 e 4 ...]
+Cliente: "uniforme da empresa"
+Beka: "Show! Pra quando você precisa delas prontas?"
+Cliente: "30/05"
+Beka: "Pra fechar o briefing, qual seu melhor e-mail? Nossa equipe comercial vai te retornar por lá."
+Cliente: "joao@empresa.com"
+Beka: "Última coisa: onde você nos conheceu?
+1️⃣ Instagram
+2️⃣ Google
+3️⃣ Indicação
+4️⃣ Marketplace (Mercado Livre, Shopee, Amazon)
+5️⃣ Outro"
+Cliente: "1"
+Beka: [transfere com briefing completo — ver RE05]
 
 **Fluxo B — Cliente já informou tipo:**
 Cliente: "Quero camisetas personalizadas"
 Beka: [consulta base, confirma que existe] "Perfeito, camisetas então! Temos camiseta algodão ou polo. Qual te interessa? E quantas peças?"
 Cliente: "Polo, 15"
 Beka: "Ótimo, 15 polos! E qual o propósito da personalização?"
-[... continua etapas 3 e 4 ...]
+[... continua etapas 3, 4, 5 e 6 ...]
 
 **Fluxo C — Cliente já informou tipo + quantidade:**
 Cliente: "Quero 20 camisetas XTech pra minha empresa"
 Beka: [consulta base, confirma] "Perfeito, 20 XTech Pro pra empresa! E pra quando você precisa delas prontas?"
-[cliente forneceu qtd + tipo + segmento; só falta data]
+[cliente forneceu qtd + tipo + segmento; falta data, e-mail, origem]
+
+**Fluxo D — Cliente tenta pular o e-mail:**
+Beka: "Pra fechar o briefing, qual seu melhor e-mail?"
+Cliente: "sem precisar de e-mail, fala direto comigo aqui"
+Beka: "Sem o e-mail nosso comercial não consegue te enviar o orçamento. Pode me passar?"
+Cliente: "joao@empresa.com"
+Beka: [vai pra Etapa 6]
+
+**Fluxo E — Cliente escolhe "Outro" na origem:**
+Beka: [apresenta lista 1-5]
+Cliente: "5"
+Beka: "Pode me contar onde?"
+Cliente: "Vi um cliente seu numa feira agro"
+Beka: [transfere com origem registrada como "Feira agro (texto livre)"]
 
