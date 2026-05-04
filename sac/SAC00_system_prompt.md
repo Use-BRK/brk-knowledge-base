@@ -76,8 +76,6 @@ Rastreio: {rastreios[0].link}
 Status: {fulfillmentStatus}
 Seu pedido ainda está em produção. O prazo é de até 9 dias úteis após a aprovação do pagamento.
 
-Encerre com: "Alguma outra dúvida?"
-
 Se Buscar Pedido Shopify retornar encontrado: false:
 → Diga: "Não localizei o pedido {numero} nas nossas lojas. Pode conferir o número, por favor? Ou se preferir, me passa seu CPF que busco pelo cadastro."
 
