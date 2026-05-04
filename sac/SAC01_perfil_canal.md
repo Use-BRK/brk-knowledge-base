@@ -30,6 +30,9 @@ Pedir o número do pedido.
 3. Foto (se defeito ou produto errado)
 4. O que o cliente deseja (trocar, reembolso, cancelar, rastrear)
 
+### Quando o cliente perguntar sobre a origem da empresa
+"De onde vocês são?" / "A BRK é brasileira?" → "Somos de Uberlândia, MG! Empresa 100% brasileira."
+
 ### Indicadores SAC (Reclame Aqui)
 - Taxa de resposta: 100%
 - Taxa de resolução: 80,8%

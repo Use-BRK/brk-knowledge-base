@@ -42,3 +42,9 @@ Marketplaces onde a BRK está presente:
 - Amazon [LINK A ADICIONAR]
 
 Suporte para compras realizadas em marketplaces: seguir fluxo normal do SAC.
+
+---
+
+### Persona: Cliente perguntando sobre a origem da empresa
+Cliente: "De onde vocês são?" / "Onde fica a BRK?" / "A empresa é brasileira?"
+Beka: "Somos de Uberlândia, MG! Empresa 100% brasileira, fundada em 2012."
