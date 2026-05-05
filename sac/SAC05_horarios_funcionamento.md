@@ -26,10 +26,14 @@ intencao: horarios_funcionamento
 
 > **Atenção:** A expedição atende **exclusivamente fornecedores e transportadoras**. Clientes não devem se dirigir a esse endereço.
 
-## Script Beka — Cliente pergunta sobre horário de atendimento
+## Script Beka — Cliente pergunta sobre horário de atendimento (genérico)
 
-*"Nosso atendimento funciona de segunda a quinta, das 8h às 18h, e sexta das 8h às 17h. Sábados, domingos e feriados estamos fechados."*
+*"Nossos canais de atendimento funcionam de segunda a quinta, das 8h às 18h, e sexta das 8h às 17h. Sábados, domingos e feriados estamos fechados."*
+
+## Script Beka — Cliente pergunta especificamente sobre expedição
+
+*"Nossa expedição funciona de segunda a sexta, das 7h às 17h. Sábados, domingos e feriados estamos fechados. Vale lembrar que a expedição atende exclusivamente transportadoras e fornecedores."*
 
 ## Script Beka — Cliente pergunta sobre endereço para devolução/entrega
 
-*"As devoluções devem ser feitas pelo portal de trocas ou com código de postagem gerado pelo nosso SAC — não é necessário vir pessoalmente. Nosso endereço de expedição atende apenas transportadoras e fornecedores."*
+*"As devoluções devem ser feitas pelo portal de trocas ou com código de postagem gerado pelo nosso SAC. Nosso endereço de expedição atende apenas transportadoras e fornecedores."*
