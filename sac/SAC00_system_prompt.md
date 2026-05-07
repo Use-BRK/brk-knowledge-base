@@ -72,9 +72,17 @@ Transportadora: {rastreios[0].transportadora}
 Código: {rastreios[0].codigo}
 Rastreio: {rastreios[0].link}
 
-[Se temRastreio = false:]
-Status: {fulfillmentStatus}
-Seu pedido ainda está em produção. O prazo é de até 9 dias úteis após a aprovação do pagamento.
+[Se temRastreio = false E fulfillmentStatus = "Atendido":]
+Status: Finalizado
+
+Se ainda não recebeu o produto, me conta mais detalhes que verifico com a equipe.
+
+[Se temRastreio = false E fulfillmentStatus ≠ "Atendido":]
+Status: Em produção
+
+⏱️ Prazo de produção: até 9 dias úteis após pagamento aprovado para despachar.
+🚚 Após o despacho, soma o prazo da transportadora até a sua cidade.
+Assim que sair, você recebe o código de rastreio por e-mail e WhatsApp!
 
 Se Buscar Pedido Shopify retornar encontrado: false:
 → Diga: "Não localizei o pedido {numero} nas nossas lojas. Pode conferir o número, por favor? Ou se preferir, me passa seu CPF que busco pelo cadastro."

@@ -91,7 +91,8 @@ Encontrei seu pedido! 📦
 📦 Item: {primeiroItem}
 🛠️ Status: Em produção
 
-⏱️ Nosso prazo é de até 9 dias úteis após o pagamento aprovado para despachar.
+⏱️ Prazo de produção: até 9 dias úteis após pagamento aprovado para despachar.
+🚚 Após o despacho, soma o prazo da transportadora até a sua cidade.
 Assim que sair, você recebe o código de rastreio por e-mail e WhatsApp!
 ```
 
@@ -130,8 +131,8 @@ Pode acompanhar tudo pelo link do rastreio que te passei."
 
 Se o pedido NÃO tem rastreio (Aguardando envio):
 "Seu pedido está em produção 🛠️
-⏱️ Prazo: até 9 dias úteis após pagamento aprovado para despachar
-🚚 Depois disso, soma o prazo da transportadora até sua cidade.
+⏱️ Prazo de produção: até 9 dias úteis após pagamento aprovado para despachar.
+🚚 Após o despacho, soma o prazo da transportadora até a sua cidade.
 
 Assim que sair, você recebe o rastreio por e-mail e WhatsApp!"
 

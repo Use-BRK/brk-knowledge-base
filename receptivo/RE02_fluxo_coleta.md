@@ -14,7 +14,7 @@ intencao: re02_fluxo_coleta
 
 Uma pergunta por mensagem. Nunca pule, nunca volte, nunca repita.
 
-⚠️ Importante: a ordem acima é a ordem LÓGICA. Se o cliente já forneceu alguma dessas informações na mensagem inicial, NÃO pergunte de novo — pule direto pra próxima etapa pendente.
+⚠️ Importante: a ordem acima é a ordem LÓGICA. Se o cliente já forneceu alguma dessas informações na mensagem inicial, NÃO pergunte de novo — pule direto pra próxima etapa pendente. NUNCA diga ao cliente que está "pulando" ou "indo para a etapa X" — apenas faça a próxima pergunta sem narrar o processo interno.
 
 ---
 
