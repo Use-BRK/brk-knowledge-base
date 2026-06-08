@@ -6,13 +6,15 @@ intencao: re05_escalacao_e_casos_especiais
 
 ### Situações de transferência
 
-**A. Briefing completo coletado (6 informações) → COMERCIAL**
-Tipo de peça + Quantidade + Segmento + Data + E-mail + Origem
+**A. Briefing coletado → COMERCIAL**
+Informações principais: Tipo de peça + Quantidade + Segmento + Data + Origem.
+E-mail é OPCIONAL — se o cliente forneceu, passe junto; se não, transfira do mesmo jeito. Nunca condicione a transferência ao e-mail.
 
-Script:
+Script (com e-mail):
 "Perfeito! Vou te encaminhar agora para nossa equipe de personalização com seu briefing. Eles entram em contato em breve por e-mail pra montar o orçamento. 😊"
 
-Caso especial: cliente recusou e-mail 2x → transferir com flag `[SEM_EMAIL]` no FINAL da resposta. Comercial recebe lead sabendo que terá que tentar contato pelo canal atual.
+Script (sem e-mail):
+"Perfeito! Vou te encaminhar agora para nossa equipe de personalização com seu briefing. Eles entram em contato em breve por aqui pelo WhatsApp pra montar o orçamento. 😊"
 
 ---
 
@@ -76,7 +78,7 @@ Menciona experiência ruim anterior. Tom mais cuidadoso, sem pressa.
 - Tipo de peça
 - Segmento/propósito
 - Data de entrega
-- E-mail
+- E-mail (se o cliente tiver fornecido — opcional)
 - Origem (canal que conheceu a BRK — Instagram, Google, Indicação, Marketplace ou texto livre se "Outro")
 - Divisão aparente (Fishing / Agro / Motors) — inferir pela conversa
 - Tom emocional do cliente (animado, formal, desconfiado)

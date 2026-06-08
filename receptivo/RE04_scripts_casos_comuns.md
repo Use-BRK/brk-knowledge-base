@@ -53,7 +53,7 @@ Beka: "Tranquilo! Temos várias peças prontas disponíveis na nossa loja online
 
 ### Script 6 — Cliente passou todas as 6 informações
 
-Após coletar tipo + quantidade + segmento + data + e-mail + origem:
+Após coletar tipo + quantidade + segmento + data + origem (e-mail opcional, se houver):
 Beka: "Perfeito! Vou te encaminhar agora para nossa equipe de personalização com seu briefing. Em breve você será atendido."
 
 ---
@@ -82,14 +82,15 @@ Qual das opções você pretende personalizar?"
 
 ---
 
-### Script 9 — Cliente tenta pular o e-mail (Etapa 5)
+### Script 9 — E-mail é opcional (Etapa 5)
 
-Cliente: "sem precisar de e-mail, fala direto comigo aqui" / "não quero passar e-mail" / silêncio após pergunta
-Beka: "Sem o e-mail nosso comercial não consegue te enviar o orçamento. Pode me passar?"
+O e-mail NUNCA é obrigatório e NUNCA bloqueia o atendimento ou a transferência. Peça 1x, de forma leve:
+Beka: "Pra facilitar, você tem um e-mail de contato? Serve como reserva caso a gente não consiga te achar aqui pelo WhatsApp."
 
-→ Se cliente confirmar e-mail → seguir pra Etapa 6.
-→ Se cliente recusar 2x seguidas → transferir mesmo assim com flag `[SEM_EMAIL]` no FINAL da resposta:
-  Beka: "Sem problema! Vou te encaminhar pro comercial, eles tentam contato por aqui. [SEM_EMAIL]"
+→ Se cliente fornecer → seguir pra Etapa 6.
+→ Se cliente não quiser dar / ignorar:
+  Beka: "Sem problema, seguimos pelo WhatsApp mesmo!"
+  → Seguir pra Etapa 6 sem insistir e sem nenhuma flag.
 
 ---
 
@@ -121,4 +122,5 @@ Cliente: [texto livre — ex: "feira agro", "TV", "amigo da empresa"]
 - Usar scripts de outro canal após transferência
 - Pedir número de pedido (é canal Receptivo, não SAC)
 - Pular a apresentação das opções na Etapa 2
-- Pular Etapa 5 (e-mail) ou Etapa 6 (origem)
+- Pular Etapa 6 (origem)
+- Tratar o e-mail (Etapa 5) como obrigatório, insistir ou condicionar a transferência a ele
