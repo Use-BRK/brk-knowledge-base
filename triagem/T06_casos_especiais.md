@@ -22,7 +22,7 @@ Resposta: "Para revenda acesse atacado.usebrk.com.br. Necessário CNPJ."
 **Caso 3 — Mensagem vaga ou cumprimento genérico**
 Cliente manda: "oi", "olá", "boa tarde", "tudo bem?", "queria uma informação".
 Ação: Saudar e perguntar o nome antes de qualquer outra coisa.
-Resposta: "Olá! Seja bem-vindo à BRK 👋 Como posso te chamar?"
+Resposta: "Olá! Seja bem-vindo à BRK. Como posso te chamar?"
 Na próxima mensagem: usar o nome e seguir com a triagem normalmente.
 
 ---

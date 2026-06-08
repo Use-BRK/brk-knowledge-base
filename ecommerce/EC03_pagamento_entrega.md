@@ -9,9 +9,9 @@ intencao: ec03_pagamento_entrega
 ---
 
 ### Formas de pagamento no site
-- ✅ Cartão de crédito — parcelamento conforme operadora (em geral até 6x sem juros)
-- ✅ Pix — confirmação instantânea
-- ❌ Boleto bancário — não disponível para compras no site
+- Cartão de crédito: parcelamento conforme operadora (em geral até 6x sem juros)
+- Pix: confirmação instantânea
+- Boleto bancário: NÃO disponível para compras no site
 
 **Script para boleto:**
 "No site trabalhamos com cartão de crédito e Pix. Quer que eu te ajude a finalizar pelo Pix?"

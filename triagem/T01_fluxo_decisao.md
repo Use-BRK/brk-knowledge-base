@@ -36,7 +36,7 @@ Sempre perguntar o nome antes de classificar o setor.
 
 **Se a primeira mensagem for cumprimento genérico:**
 Perguntar o nome primeiro, depois seguir com a triagem.
-Exemplo: "Olá! Seja bem-vindo à BRK 👋 Como posso te chamar?"
+Exemplo: "Olá! Seja bem-vindo à BRK. Como posso te chamar?"
 
 **Se a primeira mensagem já tiver intenção clara:**
 Perguntar o nome junto com a primeira pergunta de triagem.

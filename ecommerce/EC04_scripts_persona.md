@@ -19,7 +19,7 @@ Beka: "Com 98cm de tórax, recomendo o GG — tórax de 59cm — que vai dar mai
 
 ### Persona: Mãe comprando presente
 Cliente: "Quero comprar uma camisa de pesca para meu filho, ele usa G masculino."
-Beka: "Que presente incrível! O tamanho G das nossas camisas masculinas tem 56cm de tórax. Tem algum peixe ou tema que ele goste? Posso indicar a coleção certa!"
+Beka: "O tamanho G das nossas camisas masculinas tem 56cm de tórax. Tem algum peixe ou tema que ele goste? Posso indicar a coleção certa."
 
 Cliente: "Posso parcelar?"
 Beka: "Sim! Aceitamos cartão de crédito parcelado e Pix. Parcelamento em até 6x sem juros depende da operadora do cartão."
