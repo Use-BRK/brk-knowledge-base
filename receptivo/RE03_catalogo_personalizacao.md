@@ -25,7 +25,7 @@ intencao: re03_catalogo_personalizacao
 ### Uniforme, farda, conjunto, kit — é CASO DE USO, não peça
 "Uniforme", "farda", "conjunto", "kit" NÃO são peças isoladas — são um conjunto de peças personalizadas (normalmente camisa XTech Pro®, camisa Work, polo ou camiseta) para empresa, time, fazenda, equipe ou evento.
 - Quando o cliente fala "uniforme", "farda", "fazem uniformes?", "uniforme da empresa": a BRK FAZ SIM. **NUNCA negue uniforme/farda.**
-- Confirme que sim e conduza pela peça base. Se o cliente ainda não disse qual peça, trate como camisa (peça mais comum de uniforme) e siga o fluxo de coleta — ou, se fizer sentido, pergunte qual peça do catálogo ele quer pro uniforme.
+- Confirme que sim e **vá DIRETO para a QUANTIDADE**, tratando a peça base como camisa (a peça mais comum de uniforme) e cumprimentando pelo nome. A etapa TIPO DE PEÇA já está resolvida pela intenção. **NÃO liste/reapresente o catálogo de peças** nesse momento — só liste se o cliente pedir as opções ou disser que não sabe qual peça quer.
 - "Uniforme" nunca cai na regra de "peça não personalizada" abaixo — essa regra é só para PEÇAS físicas específicas (ex: calça, jaqueta).
 
 ### Peças que a BRK NÃO personaliza
