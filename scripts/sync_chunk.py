@@ -44,7 +44,12 @@ url = os.environ['N8N_WEBHOOK_URL']
 req = urllib.request.Request(
     url,
     data=payload,
-    headers={'Content-Type': 'application/json'}
+    # UA explícito: o Cloudflare na frente do n8n bloqueia o User-Agent
+    # padrão do urllib ("Python-urllib/x.y") com 403 Forbidden.
+    headers={
+        'Content-Type': 'application/json',
+        'User-Agent': 'brk-knowledge-base-sync/1.0',
+    }
 )
 
 with urllib.request.urlopen(req) as resp:
