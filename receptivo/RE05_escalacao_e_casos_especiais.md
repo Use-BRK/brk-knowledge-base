@@ -7,7 +7,7 @@ intencao: re05_escalacao_e_casos_especiais
 ### Situações de transferência
 
 **A. Briefing coletado → COMERCIAL**
-Informações principais: Tipo de peça + Quantidade + Segmento + Data + Origem.
+Informações principais: Tipo de peça + Quantidade + Segmento + Origem.
 E-mail é OPCIONAL — se o cliente forneceu, passe junto; se não, transfira do mesmo jeito. Nunca condicione a transferência ao e-mail.
 
 Script (com e-mail):
@@ -77,7 +77,6 @@ Menciona experiência ruim anterior. Tom mais cuidadoso, sem pressa.
 - Quantidade
 - Tipo de peça
 - Segmento/propósito
-- Data de entrega
 - E-mail (se o cliente tiver fornecido — opcional)
 - Origem (canal que conheceu a BRK — Instagram, Google, Indicação, Marketplace ou texto livre se "Outro")
 - Divisão aparente (Fishing / Agro / Motors) — inferir pela conversa

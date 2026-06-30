@@ -54,9 +54,9 @@ Beka: "Tranquilo! Temos várias peças prontas disponíveis na nossa loja online
 
 ---
 
-### Script 6 — Cliente passou todas as 6 informações
+### Script 6 — Cliente passou todas as 5 informações
 
-Após coletar tipo + quantidade + segmento + data + origem (e-mail opcional, se houver):
+Após coletar tipo + quantidade + segmento + origem (e-mail opcional, se houver):
 Beka: "Perfeito! Vou te encaminhar agora para nossa equipe de personalização com seu briefing. Em breve você será atendido."
 
 ---
