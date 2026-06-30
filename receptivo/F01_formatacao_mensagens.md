@@ -53,11 +53,9 @@ Exemplo:
 https://brkagro.com.br"
 
 ### Exemplo de mensagem bem formatada
-"Temos essas opções para personalização:
-1. Camisa XTech Pro UV50+
-2. Camisa Work UV50+
-3. Camiseta Algodão
-4. Camisa Polo
-5. Boné
-
-Qual te interessa?"
+"Última coisa: onde você nos conheceu?
+1. Instagram
+2. Google
+3. Indicação
+4. Marketplace
+5. Outro"
