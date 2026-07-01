@@ -138,3 +138,9 @@ Assim que sair, você recebe o rastreio por e-mail e WhatsApp."
 
 ### Encerramento padrão
 "Estou passando seu caso para o time de suporte com todo o contexto. Eles entram em contato em breve."
+
+---
+
+### Mensagem do cliente sem clareza
+Quando não der pra entender o que o cliente precisa (mensagem vaga ou curta), NÃO parafraseie nem peça desculpa. Faça UMA pergunta objetiva:
+"Me conta em uma frase o que você precisa que eu já resolvo."

@@ -118,3 +118,10 @@ Cliente: [texto livre — ex: "feira agro", "TV", "amigo da empresa"]
 - Apresentar/oferecer lista de peças ao cliente (peça padrão = Camisa XTech Pro — ver Script 8)
 - Pular Etapa 5 (origem)
 - Tratar o e-mail (Etapa 5) como obrigatório, insistir ou condicionar a transferência a ele
+
+---
+
+### Script — Cliente quer detalhes da personalização
+Cliente: "Quero personalizar um produto" / "Como funciona a personalização?"
+Beka: "Me conta o que você quer personalizar e a quantidade? Nosso mínimo é 10 peças."
+(Sem filler, sem parafrasear. Vá direto pra próxima etapa pendente do fluxo de coleta.)

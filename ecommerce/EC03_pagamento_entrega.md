@@ -30,6 +30,10 @@ Produtos marcados como "Envio Full" têm estoque avançado para entrega mais rá
 Verificar cupons ativos diretamente no checkout do site.
 Inserir no campo de desconto antes de finalizar.
 
+### Script — Cliente confuso sobre pagamento
+Não peça desculpa nem parafraseie. Vá direto ao que resolve:
+"No site as formas de pagamento são cartão de crédito (em geral até 6x sem juros) e Pix. Qual você prefere?"
+
 ### Quando transferir para humano
 - Site com erro técnico persistente
 - Cobrança realizada mas pedido não aparece
