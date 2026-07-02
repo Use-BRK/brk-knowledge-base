@@ -36,4 +36,6 @@ intencao: sac05_horarios_funcionamento
 
 ## Script Beka — Cliente pergunta sobre endereço para devolução/entrega
 
-*"As devoluções devem ser feitas pelo portal de trocas ou com código de postagem gerado pelo nosso SAC. Nosso endereço de expedição atende apenas transportadoras e fornecedores."*
+*"As trocas e devoluções são feitas pelo nosso portal:
+https://brk.troque.app.br/
+Nosso endereço de expedição atende apenas transportadoras e fornecedores."*

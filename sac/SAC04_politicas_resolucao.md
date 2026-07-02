@@ -35,8 +35,11 @@ intencao: sac04_politicas_resolucao
 - NÃO afirme um prazo de garantia específico em número de dias — se o cliente perguntar o prazo exato, escale para o atendente humano confirmar
 
 ### Portal de trocas / devolução
-- Devoluções são feitas pelo portal de trocas ou com código de postagem gerado pelo SAC
-- Se o cliente perguntar "como devolver / onde faço a troca", escale para o atendente humano gerar o código/portal — a Beka não gera esse link
+- Trocas e devoluções são feitas pelo portal oficial:
+https://brk.troque.app.br/
+- Se o cliente perguntar "como devolver / onde faço a troca", envie o link do portal (em linha própria, sem parênteses). Casos que o portal não resolva → escale para o atendente humano.
+- Política completa de troca, devolução e reembolso:
+https://www.brkagro.com.br/pages/politica-de-troca-devolucao-e-reembolso
 
 ### Contatos SAC
 - WhatsApp: +55 34 93300-1978

@@ -16,9 +16,9 @@ Prioridade: agentes LIVE = Triagem, SAC, Receptivo (E-commerce e Ativo estão DE
 ## 🟠 LACUNAS (prompt roteia, chunk não cobre)
 - [x] L1 — `triagem/T06` + `triagem/T00`: add casos parceria/influencer (→WhatsApp 34 99718-3473) e fornecedor/novo negócio (→contato@/financeiro@usebrk.com.br)
 - [x] L2 — `triagem/T02`: add sinais SAC "horário de atendimento/funcionamento, endereço, localização"
-- [~] L3 (parcial: arrependimento add; garantia/portal → instrução segura, sem prazo inventado) — `sac/SAC04`: add política de arrependimento (7 dias/CDC) + garantia legal defeito **(precisa validar termos exatos)**
-- [ ] L4 (PENDENTE: URL do portal — precisa do time) — `sac`: link do portal de trocas **(URL desconhecida — precisa do time)**
-- [ ] L5 (PENDENTE: política troca/devolução ecommerce — precisa do time; agente desabilitado) — `ecommerce`: chunk troca/devolução **(precisa política; agente desabilitado — baixa)**
+- [x] L3 (arrependimento CDC + portal com URL; garantia sem prazo inventado) — `sac/SAC04`: add política de arrependimento (7 dias/CDC) + garantia legal defeito **(precisa validar termos exatos)**
+- [x] L4 (portal https://brk.troque.app.br/ em SAC04/SAC05) — `sac`: link do portal de trocas **(URL desconhecida — precisa do time)**
+- [x] L5 (novo chunk ecommerce/EC06_trocas_devolucoes + link política) — `ecommerce`: chunk troca/devolução **(precisa política; agente desabilitado — baixa)**
 
 ## 🟡 PLACEHOLDERS / formatação errada em exemplos
 - [x] P1 — `triagem/T03:26`: remover resposta substantiva de marketplace + `[LINKS A ADICIONAR]` (triagem só classifica)
