@@ -16,7 +16,9 @@ with open(filepath, 'r', encoding='utf-8') as f:
 # Extrai frontmatter
 fm_match = re.match(r'^---\s*\n([\s\S]*?)\n---\s*\n', content)
 if not fm_match:
-    print(f"Sem frontmatter: {filepath}", file=sys.stderr)
+    # Skip INTENCIONAL: arquivos sem frontmatter nao sao chunks de RAG
+    # (ex: *_system_prompt.md = copia-fonte do prompt do node, README, ROADMAP).
+    print(f"SKIP (sem frontmatter, intencional — nao e chunk RAG): {filepath}")
     sys.exit(0)
 
 fm = fm_match.group(1)
@@ -24,7 +26,15 @@ agente_match = re.search(r'^agente:\s*(.+)$', fm, re.MULTILINE)
 intencao_match = re.search(r'^intencao:\s*(.+)$', fm, re.MULTILINE)
 
 if not agente_match or not intencao_match:
-    print(f"Frontmatter incompleto em: {filepath}", file=sys.stderr)
+    # Tem frontmatter mas falta agente/intencao: provavelmente ERRO (deveria ser chunk).
+    # Nao falha o job, mas avisa alto para revisao manual.
+    faltando = []
+    if not agente_match:
+        faltando.append("agente")
+    if not intencao_match:
+        faltando.append("intencao")
+    print(f"AVISO: {filepath} tem frontmatter mas falta {', '.join(faltando)} "
+          f"-> NAO sincronizado. Verifique se deveria ser um chunk de RAG.", file=sys.stderr)
     sys.exit(0)
 
 agente = agente_match.group(1).strip()

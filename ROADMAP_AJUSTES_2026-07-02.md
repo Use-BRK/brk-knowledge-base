@@ -35,7 +35,7 @@ Prioridade: agentes LIVE = Triagem, SAC, Receptivo (E-commerce e Ativo estão DE
 - [x] AT — `ativo/AT02` Script 4 + `ativo/AT01`: prazo/arte = confirmação via humano; `ativo/AT00`: add mecanismo de handoff + 1 exemplo
 - [x] SYNC — `triagem/T00` sincronizar com node (casos especiais) — coberto por L1
 
-## 📌 Melhorias estruturais (fora deste passe, registrar)
-- Pipeline: gerar as 5 cópias F01 de UM template canônico + overrides por canal (elimina drift por copy-paste)
-- `sync_chunk.py`: log explícito quando pula arquivo sem frontmatter (distinguir intencional vs erro)
-- E-commerce/Ativo: reabilitar nós ou remover chunks órfãos do RAG
+## 📌 Melhorias estruturais (FEITAS 2026-07-02)
+- [x] Gerador `scripts/build_f01.py`: 5 cópias F01 de fonte canônica única + overrides por canal (elimina drift). README documenta.
+- [x] `sync_chunk.py`: log SKIP explícito (sem frontmatter=intencional) + AVISO (frontmatter incompleto=possível erro)
+- [ ] E-commerce/Ativo: reabilitar nós ou remover chunks órfãos do RAG (pendente — decisão de produto)
