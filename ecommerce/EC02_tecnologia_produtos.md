@@ -40,9 +40,9 @@ Boné: à mão com sabão neutro, secar horizontalmente à sombra.
 
 ---
 
-### Nomes corretos para busca no catálogo Shopify MCP
+### Nomes corretos para busca no catálogo (ferramentas Shopify por divisão)
 
-**IMPORTANTE:** Sempre use os termos abaixo ao chamar o search_catalog.
+**IMPORTANTE:** a busca de produto é feita pelas ferramentas Shopify por divisão — **Shopify Fishing**, **Shopify Agro** e **Shopify Motors** (busca por termo parcial no título). Escolha a ferramenta da divisão certa e use os termos abaixo.
 Termos genéricos como "camisa de pesca feminina" não retornam resultados corretos.
 
 **BRK Fishing — feminino:**
@@ -69,15 +69,13 @@ Termos genéricos como "camisa de pesca feminina" não retornam resultados corre
 **Estratégia de retry:**
 Se a primeira busca não retornar resultados relevantes:
 1. Simplifique o termo (ex: "feminina" em vez de "camisa pesca feminina")
-2. Use o nome da linha (ex: "Amazon" para feminino Fishing)
+2. Use o nome da linha (ex: "Amazon" para feminino Fishing — a "Linha Amazon" é a feminina de pesca, não confundir com o marketplace Amazon)
 3. Use o tipo de produto (ex: "baby look", "manga longa", "UV50")
 
 ---
 
-### Produtos mais vendidos (dados reais — abril 2026)
-- BRK Agro: Lenço Country Marrom, Camisa Térmica Basic Preta, Camisa Bandeira do Brasil
-- BRK Fishing: Tênis RaptorX, Camisa Amazon Onça Azul, Sandália Boaonda Flow
-- BRK Motors: Bandana Iron Maiden UV50+, Camisa Segunda Pele Discovery 2
+### Produtos mais vendidos / estoque / preço
+Consulte ao vivo pelas ferramentas Shopify (Fishing/Agro/Motors). Esses dados mudam com frequência — não fixar lista de mais vendidos no RAG.
  
  
 

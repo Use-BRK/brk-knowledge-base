@@ -1,6 +1,6 @@
 ---
 agente: sac
-intencao: horarios_funcionamento
+intencao: sac05_horarios_funcionamento
 ---
 
 # Horários de Funcionamento e Localização

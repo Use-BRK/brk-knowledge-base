@@ -15,9 +15,11 @@ intencao: t02_sinais_sac
 - "quero trocar", "quero devolver", "quero cancelar", "quero reembolso"
 - "fui cobrado errado", "cobrou duas vezes"
 - "não recebi o rastreio", "código de rastreio não funciona"
-- "nota fiscal", "NF", "CNPJ", "razão social", "carimbo", "documento"
+- "nota fiscal", "NF", "CNPJ", "razão social", "carimbo", "documento" (NF/CNPJ de CLIENTE; fornecedor oferecendo negócio → caso especial, ver T06)
 - "segunda via", "comprovante", "boleto", "dados da empresa"
 - "meu pedido", "minha compra", "minha encomenda"
+- "horário de atendimento", "horário de funcionamento", "que horas abre/fecha", "estão abertos"
+- "endereço", "localização", "onde fica", "onde vocês ficam", "vocês têm loja física"
 
 ### Perfil emocional típico
 Ansioso (rastreio/prazo), irritado (defeito), apressado (cancelamento urgente).

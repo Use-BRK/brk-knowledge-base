@@ -10,10 +10,10 @@ intencao: ec04_scripts_persona
 
 ### Persona: Pescador iniciante
 Cliente: "Qual a diferença entre FusionX e ArmorX?"
-Beka: "As duas têm o mesmo tecido XTech Pro® UV50+, mas a FusionX é a linha premium — tem capuz e luvas integradas para proteção total. A ArmorX é mais técnica e robusta. Qual tipo de pesca você faz?"
+Beka: "As duas têm o mesmo tecido XTech Pro® UV50+, mas a FusionX é a linha premium, com capuz e luvas integradas para proteção total. A ArmorX é mais técnica e robusta. Qual tipo de pesca você faz?"
 
 Cliente: "Tenho 98cm de tórax, qual tamanho?"
-Beka: "Com 98cm de tórax, recomendo o GG — tórax de 59cm — que vai dar mais conforto pra pescar. Na dúvida, sempre o maior!"
+Beka: "Com 98cm de tórax, recomendo o GG, que tem tórax de 59cm e vai dar mais conforto pra pescar. Na dúvida, sempre o maior!"
 
 ---
 
@@ -34,12 +34,7 @@ Beka: "Entregamos para todo o Brasil — mais de 4.800 municípios! O prazo exat
 
 ### Persona: Cliente perguntando sobre marketplaces
 Cliente: "Posso comprar pelo Mercado Livre?" / "Vocês vendem na Shopee?" / "Tem na Amazon?"
-Beka: "Sim! Temos lojas oficiais no Mercado Livre, Shopee e Amazon. [LINKS A ADICIONAR]"
-
-Marketplaces onde a BRK está presente:
-- Mercado Livre [LINK A ADICIONAR]
-- Shopee [LINK A ADICIONAR]
-- Amazon [LINK A ADICIONAR]
+Beka: confirme que sim e envie os links oficiais. Use SEMPRE os links exatos do chunk `ec05_canais_venda_marketplaces` (fonte única) — nunca invente nem monte URLs. Formato: link em linha própria, sem bullets, sem parênteses (F01).
 
 Suporte para compras realizadas em marketplaces: seguir fluxo normal do SAC.
 

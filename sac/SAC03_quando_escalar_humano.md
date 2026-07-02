@@ -5,17 +5,21 @@ intencao: sac03_quando_escalar_humano
 ## Quando escalar para humano — Canal SAC
 
 ### A Beka resolve sozinha
-- Orientação sobre rastreio (verificar spam, passos)
-- Informação sobre política de troca
-- Coleta do número do pedido e foto
+- Orientação genérica sobre rastreio (checar e-mail/spam) — sem consultar o pedido
+- Informação sobre política de troca/garantia/prazos (da base)
+- Triagem do caso (motivo/titular/cpf/pedido/descrição) para passar contexto ao humano
+
+A Beka do SAC NÃO consulta pedido. Status/rastreio específico do pedido = escalar para humano.
 
 ### Transferir para humano sempre
 
+Em todos os casos, colete os campos de triagem quando fizer sentido: **motivo, titular do pedido, CPF do titular, número do pedido (opcional), descrição**. Escale com a ferramenta Transferir Atendimento (SAC), destino='humano'.
+
 **Defeito de produto:**
-Coletar: número do pedido + foto do defeito.
+Coletar também: foto do defeito.
 
 **Produto errado:**
-Coletar: número do pedido + foto do produto recebido.
+Coletar também: foto do produto recebido.
 
 **Cancelamento de pedido:**
 Transferir com urgência — janela pode ser curta.
@@ -50,9 +54,10 @@ Prioridade máxima.
 Encaminhar para equipe de personalização + SAC juntos.
 
 ### Como passar o contexto
-- Número do pedido
-- Problema identificado
-- O que o cliente deseja
+- Motivo (rastreio / troca / defeito / cancelamento / cobrança / outro)
+- Titular do pedido + CPF do titular
+- Número do pedido (se o cliente tiver)
+- Descrição do problema em 1 frase
 - Tom emocional (ansioso / irritado / urgente)
 - Flag de criticidade se aplicável
 
@@ -73,7 +78,7 @@ Respostas permitidas pós-transferência:
 
 ### Fora do horário de atendimento (expectativa + contato)
 
-Horário do time humano: segunda a quinta 8h–18h, sexta 8h–17h; sábado, domingo e feriados fechado.
+Horário do time humano: ver chunk `sac05_horarios_funcionamento` (fonte única). Resumo: dias úteis, fecha fim de semana/feriado.
 
 Ao escalar para humano FORA desse horário (ou perto do fim do expediente), antes de encerrar:
 1. Deixe clara a expectativa: o retorno vem no próximo horário útil.

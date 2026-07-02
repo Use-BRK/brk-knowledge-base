@@ -25,7 +25,7 @@ Beka: "Pode me passar os 3 nomes e os tamanhos de cada um?"
 ### Script 4 — Prazo apertado
 
 Cliente: "Preciso para antes do torneio dia X."
-Beka: "O prazo de produção é ~7 dias úteis após a aprovação da arte. Nossa equipe vai confirmar a viabilidade agora."
+Beka: "Anotei a data. Nossa equipe comercial confirma agora a viabilidade e o prazo pra você." (NÃO comprometa número de dias — quem confirma prazo é o time humano.)
 
 ### Script 5 — NF obrigatória
 

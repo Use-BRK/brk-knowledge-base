@@ -20,11 +20,17 @@ A BRK possui lojas oficiais nos seguintes marketplaces:
 ### Quando o cliente perguntar sobre marketplaces
 Perguntas como: "Posso comprar pelo Mercado Livre?", "Vocês vendem na Shopee?", "Tem na Amazon?", "Posso pedir pelo ML?"
 
-Resposta modelo:
+Resposta modelo (links em linha própria, sem bullets, sem parênteses — conforme F01):
 "Sim! Temos lojas oficiais nos principais marketplaces:
-• Amazon: https://www.amazon.com.br/sp?ie=UTF8&seller=AV9TDE7B8ESTI
-• Shopee: https://shopee.com.br/936o557f26
-• Mercado Livre: https://www.mercadolivre.com.br/pagina/brk"
+
+Amazon:
+https://www.amazon.com.br/sp?ie=UTF8&seller=AV9TDE7B8ESTI
+
+Shopee:
+https://shopee.com.br/936o557f26
+
+Mercado Livre:
+https://www.mercadolivre.com.br/pagina/brk"
 
 Se perguntar especificamente por divisão (Fishing, Agro):
 - BRK Fishing no Mercado Livre: https://www.mercadolivre.com.br/loja/brk-fishing
@@ -43,8 +49,19 @@ Oriente o cliente a conferir antes de comprar:
 - **Preço:** valores muito abaixo do site oficial são sinal de alerta
 - **Selo de loja oficial:** procure o selo "Loja Oficial BRK" nos marketplaces
 
-Resposta sugerida quando o cliente perguntar se é oficial:
-"Boa pergunta! Para garantir que está comprando da loja oficial, confira se o vendedor tem o nome BRK ou BRK Oficial, selo de loja oficial e avaliações positivas. Preços muito abaixo do normal são sinal de alerta. Nossos links oficiais são: Amazon (https://www.amazon.com.br/sp?ie=UTF8&seller=AV9TDE7B8ESTI), Shopee (https://shopee.com.br/936o557f26) e Mercado Livre (https://www.mercadolivre.com.br/pagina/brk)."
+Resposta sugerida quando o cliente perguntar se é oficial (links em linha própria, sem parênteses):
+"Boa pergunta! Para garantir que está comprando da loja oficial, confira se o vendedor tem o nome BRK ou BRK Oficial, selo de loja oficial e avaliações positivas. Preços muito abaixo do normal são sinal de alerta.
+
+Nossos links oficiais:
+
+Amazon:
+https://www.amazon.com.br/sp?ie=UTF8&seller=AV9TDE7B8ESTI
+
+Shopee:
+https://shopee.com.br/936o557f26
+
+Mercado Livre:
+https://www.mercadolivre.com.br/pagina/brk"
 
 ### Suporte para compras em marketplaces
 Clientes que compraram via marketplace e têm problemas → seguir fluxo normal do SAC.
