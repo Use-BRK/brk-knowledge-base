@@ -30,7 +30,7 @@ Triagem objetiva do caso. Geralmente o motivo já vem na mensagem — só pergun
 ### Informações a coletar (contexto para o humano)
 1. Motivo (rastreio, troca, defeito, cancelamento, cobrança ou outro)
 2. Titular do pedido (em nome de quem foi feito)
-3. CPF do titular
+3. CPF ou CNPJ do titular (pessoa física informa CPF; empresa/PJ informa CNPJ)
 4. Número do pedido — **opcional**, não bloqueia se o cliente não tiver
 5. Descrição do problema em 1 frase
 6. Foto (se defeito ou produto errado)

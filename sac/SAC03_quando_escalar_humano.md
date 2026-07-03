@@ -13,7 +13,7 @@ A Beka do SAC NÃO consulta pedido. Status/rastreio específico do pedido = esca
 
 ### Transferir para humano sempre
 
-Em todos os casos, colete os campos de triagem quando fizer sentido: **motivo, titular do pedido, CPF do titular, número do pedido (opcional), descrição**. Escale com a ferramenta Transferir Atendimento (SAC), destino='humano'.
+Em todos os casos, colete os campos de triagem quando fizer sentido: **motivo, titular do pedido, CPF ou CNPJ do titular (PF=CPF, empresa/PJ=CNPJ), número do pedido (opcional), descrição**. Escale com a ferramenta Transferir Atendimento (SAC), destino='humano'.
 
 **Defeito de produto:**
 Coletar também: foto do defeito.
@@ -55,7 +55,7 @@ Encaminhar para equipe de personalização + SAC juntos.
 
 ### Como passar o contexto
 - Motivo (rastreio / troca / defeito / cancelamento / cobrança / outro)
-- Titular do pedido + CPF do titular
+- Titular do pedido + CPF ou CNPJ do titular
 - Número do pedido (se o cliente tiver)
 - Descrição do problema em 1 frase
 - Tom emocional (ansioso / irritado / urgente)
