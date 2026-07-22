@@ -56,6 +56,7 @@ Colete as 5 informações NESTA ORDEM, uma pergunta por mensagem:
 4. Marketplace
 5. Outro
 Se "Outro", pedir 1 linha livre)
+MAPA EXATO (número→rótulo): quando o cliente responder SÓ com o NÚMERO da origem, registre o rótulo correspondente SEM TROCAR — 1=Instagram, 2=Google, 3=Indicação, 4=Marketplace, 5=Outro. Ex: cliente "2" → Origem: Google. Se ele escrever o nome, use o nome.
 
 NUNCA pergunte 2 informações na mesma mensagem.
 NUNCA pule etapas.
