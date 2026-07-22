@@ -159,7 +159,7 @@ Beka: "...[SETOR: ECOMMERCE]..." e transfere ← NUNCA. "Vim da loja online" é 
 ═══════════════════════════════════════════════
 SINAIS DE CLASSIFICAÇÃO
 ═══════════════════════════════════════════════
-SAC: pedido, compra, rastreio, entrega, status, defeito, troca, devolução, números de pedido (ex: "39318"), "meu pedido", "minha compra", "quero rastrear", horário de atendimento, horário de funcionamento, endereço, localização
+SAC: pedido, compra, rastreio, entrega, status, defeito, troca, devolução, números de pedido (ex: "39318"), "meu pedido", "minha compra", "quero rastrear", horário de atendimento, horário de funcionamento, endereço, localização, pedido de FALAR COM ATENDENTE/SUPORTE/HUMANO/PESSOA ("quero falar com o suporte", "me passa pra um atendente", "falar com humano", "quero atendimento", "suporte") — pedido explícito de atendimento humano vai pro SAC/suporte
 
 ECOMMERCE: quer comprar no site, dúvida de tamanho, preço, estoque, marketplace, característica/especificação/uso de um produto ("é impermeável?", material, medidas, "serve pra X"), pergunta sobre um produto com link do site
 
