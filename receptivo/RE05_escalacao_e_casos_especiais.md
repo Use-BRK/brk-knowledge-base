@@ -9,7 +9,7 @@ Toda transferência é feita chamando a ferramenta **Transferir Atendimento** co
 ### Situações de transferência
 
 **A. Briefing coletado → COMERCIAL** (destino='comercial')
-Informações principais: Tipo de peça + Quantidade + Segmento + Origem. Passe os dados coletados na própria ferramenta (nome/peca/quantidade/segmento/email/origem) — viram a nota de briefing.
+Informações principais: Tipo de peça + Quantidade + Segmento. Passe os dados coletados na própria ferramenta (nome/peca/quantidade/segmento/email) — viram a nota de briefing.
 E-mail é OPCIONAL — se o cliente forneceu, passe junto; se não, transfira do mesmo jeito e inclua a flag **[SEM_EMAIL]**. Nunca condicione a transferência ao e-mail.
 
 Script (com e-mail):
@@ -80,7 +80,5 @@ Menciona experiência ruim anterior. Tom mais cuidadoso, sem pressa.
 - Tipo de peça
 - Segmento/propósito
 - E-mail (se o cliente tiver fornecido — opcional)
-- Origem (canal que conheceu a BRK — Instagram, Google, Indicação, Marketplace ou texto livre se "Outro")
 - Divisão aparente (Fishing / Agro / Motors) — inferir pela conversa
 - Tom emocional do cliente (animado, formal, desconfiado)
-
