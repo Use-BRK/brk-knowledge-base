@@ -23,6 +23,9 @@ intencao: ec03_pagamento_entrega
 - Rastreio enviado por e-mail e WhatsApp após despacho
 - Se não encontrou: verificar pasta de spam
 
+### Retirada presencial
+Existe retirada de pedido já feito, na expedição de Uberlândia — endereço e horário estão em ec05_canais_venda_marketplaces. A retirada NÃO abate o frete já pago e NÃO é opção de checkout: pedido de retirada ou de estorno de frete vai para o SAC.
+
 ### Envio Full
 Produtos marcados como "Envio Full" têm estoque avançado para entrega mais rápida.
 
@@ -38,7 +41,3 @@ Não peça desculpa nem parafraseie. Vá direto ao que resolve:
 - Site com erro técnico persistente
 - Cobrança realizada mas pedido não aparece
 - Dúvida sobre pedido já realizado → transferir para SAC
- 
-
-
-

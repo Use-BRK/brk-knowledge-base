@@ -4,7 +4,7 @@ intencao: re06_institucional
 ---
 ## Informações institucionais da BRK — Canal Receptivo
 
-**Contexto:** usado quando o cliente pergunta de onde a BRK é, onde fica, se tem loja física, se pode visitar, quais são os sites oficiais ou onde ver projetos de personalização. Responda em 2-3 linhas, sem repetir a pergunta.
+**Contexto:** usado quando o cliente pergunta de onde a BRK é, onde fica, se tem loja física, se pode visitar, quais são os sites oficiais, onde ver projetos de personalização ou onde retirar um pedido já feito. Responda em 2-3 linhas, sem repetir a pergunta.
 
 ---
 
@@ -21,21 +21,29 @@ A BRK é **de Uberlândia, Minas Gerais** — e só de lá. NÃO é de Santa Cat
 
 ### Endereços e horários
 
-São três endereços, com finalidades diferentes. Só o da loja vai para o cliente.
+São três endereços, com finalidades diferentes.
+
+**Endereço público — pode informar sempre que fizer sentido**
 
 1. Loja física (atendimento ao cliente): Av. Rondon Pacheco, 3600 - Santa Maria, Uberlândia - MG, 38408-404
 Segunda a sexta das 09h às 19h. Sábado das 08h às 12h. Domingo fechado.
 
-2. Fábrica (uso interno, não é ponto de venda): R. Francisco Viêira de Paiva, 49 - Presidente Roosevelt, Uberlândia - MG, 38401-002
+Cliente que quer comprar ou conhecer produto presencialmente → informe SOMENTE este endereço e este horário.
+
+**Endereços restritos — informe APENAS para coleta de pedido já feito**
+
+2. Fábrica / expedição — é aqui que o cliente retira pedido: R. Francisco Viêira de Paiva, 49 - Presidente Roosevelt, Uberlândia - MG, 38401-002
+Segunda a sexta das 07h às 17h.
+
+3. Escritório administrativo — não recebe cliente: Av. João Bernardes de Souza, 392 - Presidente Roosevelt, Uberlândia - MG, 38401-016
 Segunda a sexta das 08h às 18h.
 
-3. Prédio administrativo (uso interno): Av. João Bernardes de Souza, 392 - Presidente Roosevelt, Uberlândia - MG, 38401-016
-Segunda a sexta das 08h às 18h.
+Estes dois endereços e horários só entram na conversa em UMA situação: o cliente JÁ fez um pedido e quer retirar/coletar pessoalmente. Fora disso, não cite, não sugira e não mencione que existem.
 
-Regras de uso:
-- Cliente que quer comprar ou conhecer produto presencialmente → informe SOMENTE o endereço e o horário da loja.
-- NUNCA encaminhe cliente para a fábrica nem para o prédio administrativo.
-- Pedido de visita à fábrica, reunião presencial ou retirada no local → não confirme nada e transfira (ferramenta Transferir Atendimento, destino 'comercial').
+- Cliente perguntando onde a empresa fica, querendo conhecer, comprar, ver produto, visitar, fazer tour ou reunião → NÃO informe estes endereços. É loja (item 1) ou transferência.
+- Cliente que já fez pedido e quer retirar → informe o endereço e o horário de coleta, e transfira para o time confirmar que o pedido está disponível.
+- NUNCA confirme por conta própria que o pedido está pronto para retirada. Você não tem essa informação — quem confirma é o time. Informar horário não é confirmar que já pode ir buscar.
+- Coleta de pedido já feito é assunto de pós-venda: depois de informar o horário, transfira (ferramenta Transferir Atendimento, destino 'humano').
 - Horário de fábrica NÃO é argumento de prazo. Nunca use para dizer que fica pronto rápido nem para estimar entrega — prazo é só do comercial.
 
 Endereço e horário em balão próprio:
@@ -91,7 +99,9 @@ Cliente de fora do Brasil: informe o perfil acima, NÃO prometa envio internacio
 - Outra cidade, estado, país, filial, unidade ou fábrica além do que está aqui.
 - Que a BRK é de Santa Catarina ou de Navegantes.
 - Horário diferente dos que estão neste chunk, ou horário de véspera de feriado e data especial.
-- Que o cliente pode visitar a fábrica ou retirar no local.
+- O endereço da fábrica ou do administrativo para qualquer motivo que não seja coleta de pedido já feito.
+- Que o pedido está pronto, separado ou disponível para retirada — só o time confirma.
+- Que o cliente pode visitar a fábrica, fazer tour ou conhecer a produção.
 - Quantidade de funcionários, faturamento, tempo de mercado, sócios ou qualquer dado que não esteja neste chunk.
 
 Se a informação institucional pedida não estiver aqui, diga que vai confirmar com o time e transfira. Inventar dado institucional é alucinação — e o cliente checa.
