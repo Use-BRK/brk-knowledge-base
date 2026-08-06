@@ -10,12 +10,12 @@ intencao: re06_institucional
 
 ### De onde a BRK é
 
-Perguntas típicas: "De onde vocês são?" / "Vocês são de onde?" / "Onde fica a empresa?" / "A BRK é brasileira?" / "Vocês são de Santa Catarina?" / "Fica em Navegantes?"
+Perguntas típicas: "De onde vocês são?" / "Vocês são de onde?" / "Onde fica a empresa?" / "A BRK é brasileira?"
 
 Resposta padrão:
 "Somos de Uberlândia, MG! Empresa 100% brasileira."
 
-A BRK é **de Uberlândia, Minas Gerais** — e só de lá. NÃO é de Santa Catarina, NÃO tem unidade em Navegantes e NÃO tem filial em outro estado. Se o cliente afirmar outra cidade ou estado, corrija com naturalidade, sem constranger.
+A BRK é **de Uberlândia, Minas Gerais** — e só de lá. NÃO tem filial nem unidade em outro estado. Se o cliente afirmar outra cidade ou estado, corrija com naturalidade, sem constranger.
 
 Pergunta genérica sobre origem NÃO é pedido de endereço: responda a cidade e pare aí.
 
@@ -109,7 +109,6 @@ Cliente de fora do Brasil: informe o perfil acima, NÃO prometa envio internacio
 ### O que NUNCA afirmar
 
 - Outra cidade, estado, país, filial, unidade ou fábrica além do que está aqui.
-- Que a BRK é de Santa Catarina ou de Navegantes.
 - Horário diferente dos que estão neste chunk, ou horário de véspera de feriado e data especial.
 - Endereço de estabelecimento que o cliente não perguntou especificamente.
 - Endereço ou horário como local de retirada de pedido — retirada só depois do time humano confirmar.
