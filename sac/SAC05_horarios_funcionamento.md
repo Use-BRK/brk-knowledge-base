@@ -5,9 +5,9 @@ intencao: sac05_horarios_funcionamento
 
 # Horários de Funcionamento e Localização
 
-## De onde a BRK é / onde fica
+## De onde a BRK é
 
-Perguntas típicas: "De onde vocês são?" / "Vocês são de onde?" / "Onde fica a empresa?" / "A BRK é brasileira?" / "Onde é a fábrica?" / "Vocês têm loja física?" / "Vocês são de Santa Catarina?" / "Fica em Navegantes?"
+Perguntas típicas: "De onde vocês são?" / "Vocês são de onde?" / "Onde fica a empresa?" / "A BRK é brasileira?" / "Vocês são de Santa Catarina?" / "Fica em Navegantes?"
 
 Resposta padrão:
 
@@ -15,66 +15,63 @@ Resposta padrão:
 
 A BRK é **de Uberlândia, Minas Gerais** — e só de lá. NÃO é de Santa Catarina, NÃO tem unidade em Navegantes e NÃO tem filial em outro estado.
 
----
-
-## Loja física — endereço público
-
-**Endereço:** Av. Rondon Pacheco, 3600 — Santa Maria, Uberlândia/MG, 38408-404
-
-| Dia | Horário |
-|---|---|
-| Segunda a sexta | 09:00 – 19:00 |
-| Sábado | 08:00 – 12:00 |
-| Domingo e feriados | Fechado |
-
-É o único endereço que pode ser informado livremente. Cliente que quer comprar, ver ou conhecer produto presencialmente vai para cá.
+Pergunta genérica sobre origem NÃO é pedido de endereço: responda a cidade e pare aí.
 
 ---
 
-## Escritório administrativo
+## Endereços — só quando o cliente pergunta pelo estabelecimento
 
-**Endereço:** Av. João Bernardes de Souza, 392 — Pres. Roosevelt, Uberlândia/MG, 38401-016
+Endereço não é informação de abertura. Só entra na conversa quando o cliente pergunta especificamente por AQUELE estabelecimento. Não liste endereços, não ofereça e não mencione que existem outros.
 
-| Dia | Horário |
-|---|---|
-| Segunda a sexta | 08:00 – 18:00 |
-| Sábado, domingo e feriados | Fechado |
+**"Onde fica a loja?" / "Vocês têm loja física?" / "Quero ir na loja"**
 
-Não é ponto de venda e não recebe cliente para conhecer produto.
+Av. Rondon Pacheco, 3600 — Santa Maria, Uberlândia/MG, 38408-404
+Segunda a sexta das 09h às 19h. Sábado das 08h às 12h. Domingo e feriados fechado.
 
----
+É o endereço de quem quer comprar, ver ou conhecer produto presencialmente.
 
-## Fábrica / expedição
+**"Onde fica a fábrica?" / "Onde vocês produzem?"**
 
-**Endereço:** R. Francisco Viêira de Paiva, 49 — Pres. Roosevelt, Uberlândia/MG, 38401-002
+R. Francisco Viêira de Paiva, 49 — Pres. Roosevelt, Uberlândia/MG, 38401-002
+Segunda a sexta das 07h às 17h.
 
-| Dia | Horário |
-|---|---|
-| Segunda a sexta | 07:00 – 17:00 |
-| Sábado, domingo e feriados | Fechado |
+Deixe claro que é fábrica/expedição: atende transportadoras e fornecedores, não é loja, não recebe visita e não atende cliente para conhecer produto ou produção.
 
-Atende transportadoras, fornecedores e **coleta de pedido já feito pelo cliente**. Não é loja e não recebe visita para conhecer produção.
+**"Onde fica o escritório/administrativo?"**
 
----
+Av. João Bernardes de Souza, 392 — Pres. Roosevelt, Uberlândia/MG, 38401-016
+Segunda a sexta das 08h às 18h.
 
-## Regra de uso dos endereços restritos
+Não é ponto de venda e não recebe cliente.
 
-O escritório e a fábrica/expedição só entram na conversa em UMA situação: o cliente **já fez um pedido** e quer retirar pessoalmente. Fora disso, não cite, não sugira e não mencione que existem.
-
-- Cliente quer comprar, ver produto ou conhecer a marca → informe a loja da Av. Rondon Pacheco.
-- Cliente já fez pedido e quer retirar → informe endereço e horário de coleta e escale para o time humano confirmar que o pedido está disponível.
-- NUNCA confirme por conta própria que o pedido está pronto, separado ou liberado para retirada. Informar horário não é liberar a ida — cliente que atravessa a cidade e volta sem o pedido reclama com razão.
-- Visita à fábrica, tour, conhecer a produção ou reunião presencial → não confirme nada e escale para humano.
+Regras:
+- Visita, tour, conhecer a produção ou reunião presencial → não confirme nada e escale para humano.
+- Horário de fábrica NÃO é argumento de prazo. Nunca use para estimar entrega — prazo é do time.
 - Troca e devolução NÃO são presenciais: o caminho é o portal (ver abaixo).
 
 ---
 
-## Horário da loja NÃO é horário de atendimento
+## Retirada de pedido — sempre confirmada pelo atendimento humano
 
-- Loja física: segunda a sexta 09:00 – 19:00, sábado 08:00 – 12:00.
-- Canais de atendimento (aqui, por WhatsApp): segunda a quinta 08:00 – 18:00, sexta 08:00 – 17:00, sem fim de semana nem feriado.
+Nenhuma retirada é confirmada pela Beka.
 
-A loja abrir no sábado NÃO significa que o atendimento responde no sábado. Para quando o time retorna o contato, use o horário de atendimento.
+- NÃO informe endereço de retirada, NÃO informe horário de coleta e NÃO sugira ir buscar.
+- Cliente quer retirar/coletar pedido já feito, ou pergunta onde busca o pedido → escale para humano com a ferramenta Transferir Atendimento (SAC), destino='humano'. O time confirma se o pedido está disponível e passa o local.
+- Vale também quando o pedido de retirada vem embrulhado em pergunta de endereço ("onde fica a fábrica pra eu pegar meu pedido?"): havendo menção a pedido ou retirada, o caminho é a transferência, não o endereço.
+- NUNCA afirme que o pedido está pronto, separado ou liberado para retirada.
+
+---
+
+## Horários
+
+| Estabelecimento / canal | Horário |
+|---|---|
+| Loja física (Av. Rondon Pacheco) | Seg a sex 09:00–19:00 · Sáb 08:00–12:00 · Dom e feriados fechado |
+| Fábrica / expedição (R. Francisco Viêira de Paiva) | Seg a sex 07:00–17:00 |
+| Escritório administrativo (Av. João Bernardes de Souza) | Seg a sex 08:00–18:00 |
+| Canais de atendimento (aqui, por WhatsApp) | Seg a qui 08:00–18:00 · Sex 08:00–17:00 · Sem fim de semana nem feriado |
+
+Horário da loja NÃO é horário de atendimento. A loja abrir no sábado NÃO significa que o atendimento responde no sábado. Para quando o time retorna o contato, use o horário de atendimento.
 
 ---
 
@@ -87,12 +84,15 @@ A loja abrir no sábado NÃO significa que o atendimento responde no sábado. Pa
 *"Nossa loja fica na Av. Rondon Pacheco, 3600 - Santa Maria, Uberlândia - MG.
 Abre de segunda a sexta das 09h às 19h e sábado das 08h às 12h."*
 
+## Script Beka — Cliente pergunta onde fica a fábrica
+
+*"Nossa fábrica fica na R. Francisco Viêira de Paiva, 49 - Presidente Roosevelt, Uberlândia - MG. É nossa expedição, não funciona como loja e não recebe visita — pra conhecer os produtos, a loja é na Av. Rondon Pacheco, 3600."*
+
 ## Script Beka — Cliente quer retirar o pedido pessoalmente
 
-*"A retirada é na R. Francisco Viêira de Paiva, 49 - Presidente Roosevelt, de segunda a sexta das 7h às 17h.
-Vou confirmar com o time se seu pedido já está disponível pra retirada, um instante."*
+*"Retirada a gente confirma antes com o time. Vou te transferir pra verificarem se seu pedido já está disponível e te passarem o local, tudo bem?"*
 
-→ Escale para o time humano. NÃO afirme que o pedido está pronto.
+→ Escale para o time humano. NÃO informe endereço nem horário de coleta e NÃO afirme que o pedido está pronto.
 
 ## Script Beka — Cliente pergunta sobre endereço para devolução/entrega
 
@@ -107,7 +107,8 @@ Não fazemos troca nem devolução presencial."*
 - Outra cidade, estado, país, filial, unidade, fábrica ou segunda loja além do que está aqui.
 - Que a BRK é de Santa Catarina ou de Navegantes.
 - Horário diferente dos que estão neste chunk, ou horário de véspera de feriado e data especial.
-- O endereço do escritório ou da fábrica para qualquer motivo que não seja coleta de pedido já feito.
+- Endereço de estabelecimento que o cliente não perguntou especificamente.
+- Endereço ou horário como local de retirada de pedido — retirada só depois do time humano confirmar.
 - Que o pedido está pronto, separado ou disponível para retirada — só o time confirma.
 - Que o cliente pode visitar a fábrica, fazer tour ou conhecer a produção.
 - Que existe troca ou devolução presencial.

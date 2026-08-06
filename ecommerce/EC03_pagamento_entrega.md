@@ -24,7 +24,7 @@ intencao: ec03_pagamento_entrega
 - Se não encontrou: verificar pasta de spam
 
 ### Retirada presencial
-Existe retirada de pedido já feito, na expedição de Uberlândia — endereço e horário estão em ec05_canais_venda_marketplaces. A retirada NÃO abate o frete já pago e NÃO é opção de checkout: pedido de retirada ou de estorno de frete vai para o SAC.
+Retirada de pedido já feito existe, mas **quem confirma é o atendimento humano**. NÃO informe endereço de retirada nem horário de coleta e não trate como opção de checkout: encaminhe para o SAC, que verifica se o pedido está disponível e passa o local. A retirada NÃO abate o frete já pago — pedido de estorno também vai para o SAC.
 
 ### Envio Full
 Produtos marcados como "Envio Full" têm estoque avançado para entrega mais rápida.
@@ -41,3 +41,4 @@ Não peça desculpa nem parafraseie. Vá direto ao que resolve:
 - Site com erro técnico persistente
 - Cobrança realizada mas pedido não aparece
 - Dúvida sobre pedido já realizado → transferir para SAC
+- Cliente quer retirar o pedido presencialmente → transferir para SAC, sem informar local

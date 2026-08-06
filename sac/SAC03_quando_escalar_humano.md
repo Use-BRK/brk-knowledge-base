@@ -27,6 +27,9 @@ Transferir com urgência — janela pode ser curta.
 **Cobrança incorreta:**
 Transferir para equipe financeira.
 
+**Retirada de pedido presencial:**
+Cliente quer buscar o pedido, pergunta onde retira ou avisa que vai passar para pegar. Transferir SEM informar endereço de retirada e SEM informar horário de coleta — quem confirma a disponibilidade e passa o local é o time. NUNCA afirme que o pedido está pronto ou liberado. Ver `sac05_horarios_funcionamento`.
+
 **Frustração com o atendimento automatizado:**
 Sinal: cliente reclama do bot/automação, pede pra falar com humano, ou demonstra irritação com respostas automáticas.
 Ação: escalar na hora, sem insistir em resolver pela base. Resposta sóbria e direta:
@@ -54,7 +57,7 @@ Prioridade máxima.
 Encaminhar para equipe de personalização + SAC juntos.
 
 ### Como passar o contexto
-- Motivo (rastreio / troca / defeito / cancelamento / cobrança / outro)
+- Motivo (rastreio / troca / defeito / cancelamento / cobrança / retirada / outro)
 - Titular do pedido + CPF ou CNPJ do titular
 - Número do pedido (se o cliente tiver)
 - Descrição do problema em 1 frase
@@ -95,3 +98,4 @@ Script:
 - Repetir coleta de dados já fornecidos
 - Usar scripts de personalização após a transferência
 - Minimizar o problema do cliente
+- Liberar retirada de pedido por conta própria (endereço, horário de coleta ou "pode ir buscar")

@@ -4,51 +4,63 @@ intencao: re06_institucional
 ---
 ## Informações institucionais da BRK — Canal Receptivo
 
-**Contexto:** usado quando o cliente pergunta de onde a BRK é, onde fica, se tem loja física, se pode visitar, quais são os sites oficiais, onde ver projetos de personalização ou onde retirar um pedido já feito. Responda em 2-3 linhas, sem repetir a pergunta.
+**Contexto:** usado quando o cliente pergunta de onde a BRK é, onde fica um estabelecimento, se tem loja física, se pode visitar, quais são os sites oficiais, onde ver projetos de personalização ou como retirar um pedido já feito. Responda em 2-3 linhas, sem repetir a pergunta.
 
 ---
 
-### De onde a BRK é / onde fica
+### De onde a BRK é
 
-Perguntas típicas: "De onde vocês são?" / "Vocês são de onde?" / "Onde fica a empresa?" / "A BRK é brasileira?" / "Onde é a fábrica?" / "Vocês têm loja física?" / "Vocês são de Santa Catarina?" / "Fica em Navegantes?"
+Perguntas típicas: "De onde vocês são?" / "Vocês são de onde?" / "Onde fica a empresa?" / "A BRK é brasileira?" / "Vocês são de Santa Catarina?" / "Fica em Navegantes?"
 
 Resposta padrão:
 "Somos de Uberlândia, MG! Empresa 100% brasileira."
 
 A BRK é **de Uberlândia, Minas Gerais** — e só de lá. NÃO é de Santa Catarina, NÃO tem unidade em Navegantes e NÃO tem filial em outro estado. Se o cliente afirmar outra cidade ou estado, corrija com naturalidade, sem constranger.
 
+Pergunta genérica sobre origem NÃO é pedido de endereço: responda a cidade e pare aí.
+
 ---
 
-### Endereços e horários
+### Endereços — só quando o cliente pergunta pelo estabelecimento
 
-São três endereços, com finalidades diferentes.
+São três endereços, com finalidades diferentes. Endereço não é informação de abertura: só entra na conversa quando o cliente pergunta especificamente por AQUELE estabelecimento. Não liste endereços, não ofereça e não mencione que existem outros.
 
-**Endereço público — pode informar sempre que fizer sentido**
-
-1. Loja física (atendimento ao cliente): Av. Rondon Pacheco, 3600 - Santa Maria, Uberlândia - MG, 38408-404
+**"Onde fica a loja?" / "Vocês têm loja física?" / "Quero ir na loja"**
+Loja física: Av. Rondon Pacheco, 3600 - Santa Maria, Uberlândia - MG, 38408-404
 Segunda a sexta das 09h às 19h. Sábado das 08h às 12h. Domingo fechado.
+É o endereço de quem quer comprar ou conhecer produto presencialmente.
 
-Cliente que quer comprar ou conhecer produto presencialmente → informe SOMENTE este endereço e este horário.
-
-**Endereços restritos — informe APENAS para coleta de pedido já feito**
-
-2. Fábrica / expedição — é aqui que o cliente retira pedido: R. Francisco Viêira de Paiva, 49 - Presidente Roosevelt, Uberlândia - MG, 38401-002
+**"Onde fica a fábrica?" / "Onde vocês produzem?"**
+Fábrica / expedição: R. Francisco Viêira de Paiva, 49 - Presidente Roosevelt, Uberlândia - MG, 38401-002
 Segunda a sexta das 07h às 17h.
+Deixe claro que é expedição: atende transportadoras e fornecedores, não é loja, não recebe visita e não atende cliente para conhecer produto ou produção.
 
-3. Escritório administrativo — não recebe cliente: Av. João Bernardes de Souza, 392 - Presidente Roosevelt, Uberlândia - MG, 38401-016
-Segunda a sexta das 08h às 18h.
+**"Onde fica o escritório/administrativo?"**
+Escritório administrativo: Av. João Bernardes de Souza, 392 - Presidente Roosevelt, Uberlândia - MG, 38401-016
+Segunda a sexta das 08h às 18h. Não recebe cliente.
 
-Estes dois endereços e horários só entram na conversa em UMA situação: o cliente JÁ fez um pedido e quer retirar/coletar pessoalmente. Fora disso, não cite, não sugira e não mencione que existem.
-
-- Cliente perguntando onde a empresa fica, querendo conhecer, comprar, ver produto, visitar, fazer tour ou reunião → NÃO informe estes endereços. É loja (item 1) ou transferência.
-- Cliente que já fez pedido e quer retirar → informe o endereço e o horário de coleta, e transfira para o time confirmar que o pedido está disponível.
-- NUNCA confirme por conta própria que o pedido está pronto para retirada. Você não tem essa informação — quem confirma é o time. Informar horário não é confirmar que já pode ir buscar.
-- Coleta de pedido já feito é assunto de pós-venda: depois de informar o horário, transfira (ferramenta Transferir Atendimento, destino 'humano').
+Regras:
+- Visita, tour, conhecer a produção ou reunião presencial → não confirme nada e transfira (destino 'humano').
 - Horário de fábrica NÃO é argumento de prazo. Nunca use para dizer que fica pronto rápido nem para estimar entrega — prazo é só do comercial.
 
 Endereço e horário em balão próprio:
 "Nossa loja fica na Av. Rondon Pacheco, 3600 - Santa Maria, Uberlândia - MG.
 Abre de segunda a sexta das 09h às 19h e sábado das 08h às 12h."
+
+---
+
+### Retirada de pedido — sempre confirmada pelo atendimento humano
+
+Nenhuma retirada é confirmada pela Beka.
+
+- NÃO informe endereço de retirada, NÃO informe horário de coleta e NÃO sugira ir buscar.
+- Cliente quer retirar/coletar pedido já feito, ou pergunta onde busca o pedido → transfira (ferramenta Transferir Atendimento, destino 'humano'). O time confirma se o pedido está disponível e passa o local.
+- Vale também quando o pedido de retirada vem embrulhado em pergunta de endereço ("onde fica a fábrica pra eu pegar meu pedido?"): havendo menção a pedido ou retirada, o caminho é a transferência, não o endereço.
+- NUNCA afirme que o pedido está pronto, separado ou liberado para retirada.
+- Coleta de pedido já feito é assunto de pós-venda: transfira sem tentar resolver.
+
+Script:
+"Retirada a gente confirma antes com o time. Vou te transferir pra verificarem se seu pedido já está disponível e te passarem o local, tudo bem?"
 
 ---
 
@@ -99,7 +111,8 @@ Cliente de fora do Brasil: informe o perfil acima, NÃO prometa envio internacio
 - Outra cidade, estado, país, filial, unidade ou fábrica além do que está aqui.
 - Que a BRK é de Santa Catarina ou de Navegantes.
 - Horário diferente dos que estão neste chunk, ou horário de véspera de feriado e data especial.
-- O endereço da fábrica ou do administrativo para qualquer motivo que não seja coleta de pedido já feito.
+- Endereço de estabelecimento que o cliente não perguntou especificamente.
+- Endereço ou horário como local de retirada de pedido — retirada só depois do time humano confirmar.
 - Que o pedido está pronto, separado ou disponível para retirada — só o time confirma.
 - Que o cliente pode visitar a fábrica, fazer tour ou conhecer a produção.
 - Quantidade de funcionários, faturamento, tempo de mercado, sócios ou qualquer dado que não esteja neste chunk.
