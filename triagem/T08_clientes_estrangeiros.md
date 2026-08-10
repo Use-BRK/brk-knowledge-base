@@ -34,7 +34,7 @@ intencao: t08_clientes_estrangeiros
 
 - NÃO seguir o fluxo normal de triagem.
 - NÃO perguntar se é compra no site ou personalização.
-- NÃO perguntar histórico de cliente (ATIVO/RECEPTIVO).
+- NÃO perguntar histórico de cliente (se já comprou personalizado antes).
 - Classificar IMEDIATAMENTE como `[SETOR: SAC]` — o canal SAC fará a escalada para o time humano.
 
 ---
@@ -67,7 +67,7 @@ Encerrar SEMPRE com a tag `[SETOR: SAC]` (a tag não é traduzida — é estrutu
 
 ### Proibições
 
-- Não rotear para ECOMMERCE, RECEPTIVO ou ATIVO.
+- Não rotear para ECOMMERCE nem RECEPTIVO.
 - Não sugerir marketplaces (Mercado Livre, Shopee, Amazon) como alternativa — também atendem apenas Brasil.
 - Não prometer envio internacional, prazo ou solução.
 - Não pedir CPF, endereço ou número de pedido.

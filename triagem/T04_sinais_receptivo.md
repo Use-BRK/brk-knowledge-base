@@ -4,7 +4,7 @@ intencao: t04_sinais_receptivo
 ---
 ## Sinais de intenção — Receptivo
 
-**Quem é:** cliente novo que quer fazer personalização pela primeira vez. Sem histórico de pedidos personalizados com a BRK.
+**Quem é:** qualquer cliente que quer personalização — primeira vez OU recompra. Desde a desativação do setor ATIVO, cliente novo e cliente recorrente de personalizado caem os dois aqui.
 
 ### Classificar como RECEPTIVO quando mencionar:
 - "quero fazer camisas personalizadas", "uniforme para minha empresa"
@@ -16,18 +16,19 @@ intencao: t04_sinais_receptivo
 - "camisas personalizadas", "UV50+ personalizada"
 - "quero personalizar", "quero customizar"
 - "informações sobre uniforme"
-- Qualquer dúvida que misture produto + personalização sem histórico
+- Qualquer dúvida que misture produto + personalização, com ou sem histórico
+- "quero repetir o pedido", "refazer o mesmo", "segunda remessa", "a arte que aprovei", "quero renovar o uniforme da equipe", "faço pedido todo ano", "já sou cliente" — recompra de personalizado também é RECEPTIVO
 
-### Regra crítica — RECEPTIVO vs ATIVO
-- RECEPTIVO: primeiro contato com personalização, sem referência a pedido anterior
-- ATIVO: menciona explicitamente pedido anterior, arte salva ou histórico de compra
-- Na dúvida → sempre RECEPTIVO
+### Regra crítica — o setor ATIVO não existe mais
+- Toda personalização é RECEPTIVO: primeiro contato e recompra, com ou sem referência a pedido anterior, arte salva ou histórico
+- É PROIBIDO emitir [SETOR: ATIVO]
+- Única exceção: se o cliente quer status/prazo/rastreio de um pedido JÁ FEITO → SAC
 
 ### Perfil emocional típico
 Curioso, inseguro com o processo, quer clareza antes de se comprometer.
 
-### Pergunta de qualificação (quando necessário)
-"Você já fez algum pedido personalizado com a BRK antes?"
+### Pergunta de qualificação (descontinuada)
+NÃO pergunte mais "você já fez algum pedido personalizado com a BRK antes?". A resposta não muda o roteamento — só gasta um turno do cliente.
 
 ### Quando transferir para humano
 - Pedido acima de 100 peças

@@ -30,7 +30,7 @@ Problema com pedido já feito em marketplace → classificar como SAC (segue o f
 - "personalizado", "personalizar", "uniforme", "logo", "bordado"
 - "mínimo de peças", "orçamento para personalizar"
 - "quero colocar minha marca", "camisa com o nome da empresa"
-- Qualquer intenção de customização → usar RECEPTIVO ou ATIVO
+- Qualquer intenção de customização → usar RECEPTIVO
 
 ### Perfil emocional típico
 Curioso (primeira compra), indeciso (compara modelos), presenteando.

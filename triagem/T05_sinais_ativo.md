@@ -2,34 +2,21 @@
 agente: triagem
 intencao: t05_sinais_ativo
 ---
-## Sinais de intenção — Ativo
+## Setor ATIVO — Desativado-10.08.2026 (não use)
 
-**Quem é:** cliente que JÁ tem histórico confirmado de pedidos personalizados com a BRK. Busca continuidade, recompra ou acompanhamento.
+**O setor ATIVO foi desativado em 10.08.2026.** A operação é toda receptiva agora. Este chunk existe só para anular a instrução antiga: se você recuperar qualquer orientação sobre "classificar como ATIVO", ela está obsoleta.
 
-### Classificar como ATIVO apenas quando mencionar EXPLICITAMENTE:
-- "quero repetir o pedido", "refazer o mesmo", "segunda remessa"
-- "a arte que vocês têm", "o layout que aprovei"
-- "quando sai meu pedido personalizado", "status da produção"
-- "faço pedido todo ano", "nossa fazenda já comprou várias vezes"
-- "quero renovar o uniforme da equipe"
-- "meu atendente era X", "já sou cliente"
-- Referência direta a pedido anterior (número, modelo, arte)
+> Nota de manutenção: o nome do arquivo e o campo `intencao: t05_sinais_ativo` foram mantidos de
+> propósito. A ingestão do PGVector deleta e reinsere por `agente+intencao`, então manter a chave é o
+> que garante que este texto SOBRESCREVA o chunk antigo em vez de criar um novo e deixar o antigo
+> órfão no vetor, ainda mandando classificar ATIVO.
 
-### NÃO classificar como ATIVO quando:
-- Cliente só pergunta sobre personalização sem citar pedido anterior
-- Não menciona arte salva, layout aprovado ou histórico de compra
-- É a primeira mensagem sem contexto de compra anterior
-- Menciona "mais informações" ou "quero saber como funciona"
-- Na dúvida entre ATIVO e RECEPTIVO → sempre RECEPTIVO
+### Regra atual
+- É PROIBIDO emitir `[SETOR: ATIVO]`. Os únicos valores válidos são SAC, ECOMMERCE, RECEPTIVO e INDEFINIDO.
+- Cliente recorrente de personalizado — "quero repetir o pedido", "refazer o mesmo", "segunda remessa", "a arte que aprovei", "o layout que vocês têm", "quero renovar o uniforme da equipe", "faço pedido todo ano", "já sou cliente", "meu atendente era X" → **[SETOR: RECEPTIVO]**.
+- Referência a pedido JÁ FEITO em que o cliente quer status, prazo de produção ou rastreio → **[SETOR: SAC]** (isso não mudou).
 
-### Perfil emocional típico
-Direto, objetivo, não quer explicações básicas — já conhece o processo.
+### Pergunta que saiu de uso
+NÃO pergunte mais "você já fez algum pedido personalizado com a BRK antes?" nem qualquer variação sobre ser cliente novo ou recorrente. O roteamento não distingue mais os dois, então a pergunta só gasta um turno do cliente.
 
-### Quando transferir para humano
-- Arte com problema após aprovação
-- Cliente VIP com pedido acima de 200 peças
-
-### Classificação: ATIVO
-
-
-
+### Classificação: RECEPTIVO (nunca ATIVO)

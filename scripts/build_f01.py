@@ -109,10 +109,9 @@ EX_TRIAGEM = ('"Prazer, Ana! Como posso te ajudar hoje?\n'
               '[NOME: Ana] [INTENCAO: ainda não revelada] [SETOR: INDEFINIDO]"')
 
 # Config por agente — só as diferenças legítimas de canal.
+# "ativo" saiu daqui em 10.08.2026 — setor desativado. Se voltar, restaurar esta entrada
+# junto com ativo/Desativado-10.08.2026_F01_formatacao_mensagens.md.
 AGENTES = {
-    "ativo": dict(filler=FILLER_DEFAULT, eco_tail="faça a próxima pergunta direto",
-                  lista_rule=LISTA_RULE_DEFAULT, links_example=LINKS_LOJA,
-                  extra_sections="", final_example=EX_LISTA_PECAS),
     "ecommerce": dict(filler=FILLER_DEFAULT, eco_tail="faça a próxima pergunta direto",
                       lista_rule=LISTA_RULE_DEFAULT, links_example=LINKS_LOJA,
                       extra_sections="", final_example=EX_LISTA_PECAS),

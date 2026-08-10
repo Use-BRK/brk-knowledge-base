@@ -35,8 +35,8 @@ Classificação: RECEPTIVO. Sinalize o VIP dentro da própria tag de intenção,
 
 ---
 
-**Caso 5 — Ambiguidade entre ATIVO e RECEPTIVO**
-Regra de desempate: na dúvida, classificar como RECEPTIVO.
+**Caso 5 — Cliente recorrente de personalizado**
+O setor ATIVO foi extinto: não há mais distinção entre cliente novo e recorrente. Toda personalização — inclusive recompra, repetição de pedido e renovação de uniforme — é RECEPTIVO. É proibido emitir [SETOR: ATIVO].
 
 ---
 

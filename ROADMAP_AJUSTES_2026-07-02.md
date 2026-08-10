@@ -38,4 +38,7 @@ Prioridade: agentes LIVE = Triagem, SAC, Receptivo (E-commerce e Ativo estão DE
 ## 📌 Melhorias estruturais (FEITAS 2026-07-02)
 - [x] Gerador `scripts/build_f01.py`: 5 cópias F01 de fonte canônica única + overrides por canal (elimina drift). README documenta.
 - [x] `sync_chunk.py`: log SKIP explícito (sem frontmatter=intencional) + AVISO (frontmatter incompleto=possível erro)
-- [ ] E-commerce/Ativo: reabilitar nós ou remover chunks órfãos do RAG (pendente — decisão de produto)
+- [ ] E-commerce: reabilitar nós ou remover chunks órfãos do RAG (pendente — decisão de produto)
+- [x] Ativo: setor extinto em 2026-08-10. Roteamento `Canal[ativo]` → `Agente Beka (Receptivo)`, ramo de
+      transferência do ativo desabilitado, triagem não emite mais `[SETOR: ATIVO]` e os chunks de triagem
+      que mandavam classificar ATIVO foram corrigidos. Chunks em `ativo/` seguem órfãos no PGVector (inertes).
