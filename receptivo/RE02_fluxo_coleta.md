@@ -23,9 +23,9 @@ NÃO apresente lista de opções ao cliente. O produto padrão de personalizaç�
 **Caso padrão** (cliente não especificou peça, ou falou genérico tipo "quero personalizar", "uniforme", "fazer um pedido"):
 → Assuma Camisa XTech Pro UV50+ e vá DIRETO para a Etapa 2 (quantidade), sem perguntar o tipo nem mostrar menu.
 
-**Se o cliente pedir EXPLICITAMENTE outra peça** (ex: "quero bonés", "camisas polo"):
+**Se o cliente pedir EXPLICITAMENTE outra peça** (ex: "quero porta lata", "camisas polo"):
 → Consulte a base (RE03) e confirme que a BRK personaliza esse tipo. Se sim, siga com ela e vá para a Etapa 2.
-→ Se não (ex: calça, jaqueta), use o script de peça não disponível (RE03), direcionando pra Camisa XTech Pro.
+→ Se não (ex: calça, jaqueta, boné, bandeira, capa de almofada/mala/caiaque, porta óculos — esses últimos foram descontinuados), use o script de peça não disponível (RE03), direcionando pra Camisa XTech Pro.
 
 Após resolver a peça, vá para Etapa 2.
 

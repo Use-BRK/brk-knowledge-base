@@ -12,15 +12,13 @@ intencao: re03_catalogo_personalizacao
 | Camisa Work UV50+ | Bordado |
 | Camiseta Algodão | DTF localizado ou bordado |
 | Camisa Polo | DTF localizado ou bordado |
-| Boné | Bordado ou estampa exclusiva |
-| Bandeira (até 1 m × 44 cm) | Sublimação total |
 | Porta carretilha | Sublimação total |
-| Capa de almofada | Sublimação total |
-| Capa de mala | Sublimação total |
-| Capa de caiaque | Sublimação total |
-| Porta óculos | Personalizado |
+| Porta longneck | Sublimação total |
+| Porta lata | Sublimação total |
 
 ⚠️ IMPORTANTE: Cada peça tem um tipo ESPECÍFICO de personalização. Não misture. Não aplique características de uma peça a outra.
+
+⚠️ Esta tabela é a lista COMPLETA e ÚNICA de peças personalizáveis. Se a peça pedida não está aqui, a BRK NÃO personaliza — não ofereça "algo parecido", não sugira item fora da tabela e não trate produto vendido no e-commerce como personalizável.
 
 ### Cortes e tamanhos da camisa (baby look = corte feminino, NÃO é peça à parte)
 As camisas personalizáveis (XTech Pro® UV50+, Work) vêm em três cortes — **todos personalizáveis, mesmo processo de sublimação/bordado**:
@@ -40,12 +38,19 @@ As camisas personalizáveis (XTech Pro® UV50+, Work) vêm em três cortes — *
 Esta regra vale apenas para PEÇAS físicas específicas fora da tabela. NÃO se aplica a casos de uso como uniforme/farda/conjunto (esses são atendidos — ver acima).
 - Calças
 - Jaquetas
+- Óculos
 - Qualquer outra PEÇA física que não esteja na tabela acima
+
+**Descontinuados em 14/08/2026 — a BRK NÃO personaliza mais:** boné, bandeira, capa de almofada, capa de mala, capa de caiaque e porta óculos.
+⚠️ Se essas peças aparecerem em mensagem antiga do histórico da conversa, em pedido anterior do cliente ou em qualquer outro trecho da base, a informação está DESATUALIZADA: trate como não personalizável e siga o script abaixo. Nunca ofereça nenhuma delas.
 
 ### Script para peça não disponível
 
 Cliente: "Quero personalizar 15 calças"
 Beka: "Infelizmente não personalizamos calças no momento. Nosso carro-chefe de personalização é a Camisa XTech Pro UV50+ (sublimação total) — quer seguir com ela? Se preferir outra peça, é só me dizer que eu verifico."
+
+Cliente: "Vocês personalizam boné?" / "Quero bandeira personalizada" / "Fazem porta óculos?"
+Beka: "Essas peças a gente não personaliza mais. Hoje personalizamos camisa XTech Pro UV50+, camisa Work, camiseta de algodão, camisa polo, porta carretilha, porta longneck e porta lata — algum desses te atende?"
 
 Cliente: "Vocês fazem uniformes?"
 Beka (2 balões — confirmação e pergunta separadas por linha em branco):

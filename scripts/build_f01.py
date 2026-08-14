@@ -99,7 +99,7 @@ TAGS_CONTROLE = (
 )
 
 EX_LISTA_PECAS = ('"Temos essas opções para personalização:\n1. Camisa XTech Pro UV50+\n'
-                  '2. Camisa Work UV50+\n3. Camiseta Algodão\n4. Camisa Polo\n5. Boné\n\nQual te interessa?"')
+                  '2. Camisa Work UV50+\n3. Camiseta Algodão\n4. Camisa Polo\n5. Porta carretilha\n\nQual te interessa?"')
 EX_ORIGEM = ('"Última coisa: onde você nos conheceu?\n1. Instagram\n2. Google\n'
              '3. Indicação\n4. Marketplace\n5. Outro"')
 EX_SAC = ('"Encontrei seu pedido.\n\nPedido: #34491\nData: 12/04/2026\nItem: Camisa XTech Pro Onça\n'
