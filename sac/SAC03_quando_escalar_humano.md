@@ -7,6 +7,7 @@ intencao: sac03_quando_escalar_humano
 ### A Beka resolve sozinha
 - Orientação genérica sobre rastreio (checar e-mail/spam) — sem consultar o pedido
 - Informação sobre política de troca/garantia/prazos (da base)
+- Troca e devolução, inclusive por defeito: mandar o link do portal (`sac04_politicas_resolucao`) — isso NÃO é motivo de transferência
 - Triagem do caso (motivo/titular/cpf/pedido/descrição) para passar contexto ao humano
 
 A Beka do SAC NÃO consulta pedido. Status/rastreio específico do pedido = escalar para humano.
@@ -15,8 +16,9 @@ A Beka do SAC NÃO consulta pedido. Status/rastreio específico do pedido = esca
 
 Em todos os casos, colete os campos de triagem quando fizer sentido: **motivo, titular do pedido, CPF ou CNPJ do titular (PF=CPF, empresa/PJ=CNPJ), número do pedido (opcional), descrição**. Escale com a ferramenta Transferir Atendimento (SAC), destino='humano'.
 
-**Defeito de produto:**
-Coletar também: foto do defeito.
+**Defeito de produto — portal primeiro, NÃO transferir de saída:**
+Troca por defeito é resolvida no portal (`sac04_politicas_resolucao`): a troca por defeito é sem custo e a logística reversa é da BRK. Mande o link e pare aí.
+Escale só se: o portal não resolveu ou deu erro, o cliente pediu atendente, ou o caso foge do portal (pedido fora do site, personalizado, alto valor). Aí sim colete a foto do defeito e transfira.
 
 **Produto errado:**
 Coletar também: foto do produto recebido.
